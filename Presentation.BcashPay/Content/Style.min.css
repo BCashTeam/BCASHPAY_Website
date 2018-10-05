@@ -1,0 +1,8 @@
+#basicSlider{position:relative}
+#basicSlider .MS-content{white-space:nowrap;overflow:hidden;margin:0 2%;height:auto}
+#basicSlider .MS-content .item{display:inline-block;width:auto;position:relative;vertical-align:top;overflow:hidden;height:100%;white-space:normal;line-height:50px;vertical-align:middle}
+#basicSlider .MS-content .item a{line-height:50px;vertical-align:middle}
+#basicSlider .MS-content .item a img{display:block;margin:0 auto}
+#basicSlider .MS-controls button{position:absolute}
+#basicSlider .MS-controls .MS-left{top:35px;left:10px}
+#basicSlider .MS-controls .MS-right{top:35px;right:10px}

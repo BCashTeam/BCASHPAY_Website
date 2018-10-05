@@ -1,0 +1,1889 @@
+﻿@using Presentation.BcashPay.v2.Models;
+@model ICOInfo
+@{ var linkNews = "https://medium.com/@bcashbcore"; }
+<!-- //////////////////////////////////// CONTAINER ////////////////////////////////////-->
+<div class="content-wrapper">
+    <div class="content-body">
+        <main>
+            <!-- Header: 3D Animation -->
+            <section class="head-area" id="head-area">
+                <div id="particles-js">
+
+                </div>
+                <div class="head-content d-flex align-items-center">
+                    <div class="container">
+                        <div class="banner-wrapper">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="banner-content pt-5 text-left">
+                                        <h1 class="best-template mb-4">@Resources.Resources.What_BCASH_Title</h1>
+                                        <div class="row">
+                                            @Html.Raw(Resources.Resources.BCASH_Header)
+                                        </div>
+
+                                        <div class="mt-4">
+                                            <a href="https://ico.bcashpay.org/account/index" class="btn btn-lg btn-gradient-orange btn-glow mr-4 mb-2">@Resources.Resources.Purchase_BCASH</a>
+                                            <a href="~/document/bcash_whitepaper.pdf" download="" class="btn btn-lg btn-gradient-orange btn-glow mb-2">@Resources.Resources.WHITEPAPER</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12 move-first">
+                                    <div id="svg-animation">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 857 807" width="857" height="807" preserveAspectRatio="xMidYMid meet" style="width: 100%;height: 100%;">
+                                            <g clip-path="url(#svg_animation_mask)">
+                                                <!-- Step 1 -->
+                                                <!-- base -->
+                                                <g transform="matrix(1,0,0,1,10,450)" opacity="1">
+                                                    <image class="animated" data-animation="fadeInLeftShorter" data-animation-delay="1s" width="590px" height="360px" preserveAspectRatio="xMidYMid slice" xlink:href="theme-assets/images/svg/svg-animation/base.svg"></image>
+                                                </g>
+
+                                                <!-- btc-base-shadow -->
+                                                <g transform="matrix(1,0,0,1,60,580)" opacity="0.8">
+                                                    <image class="animated" data-animation="fadeInUpShorter" data-animation-delay="2s" width="130px" height="130px" preserveAspectRatio="xMidYMid slice" xlink:href="theme-assets/images/svg/svg-animation/icon-base-shadow.svg"></image>
+                                                </g>
+
+                                                <!-- btc-base -->
+                                                <g transform="matrix(1,0,0,1,60.8,560.9)" opacity="1">
+                                                    <image class="animated" data-animation="fadeInUpShorter" data-animation-delay="1.9s" width="130px" height="130px" preserveAspectRatio="xMidYMid slice" xlink:href="theme-assets/images/svg/svg-animation/icon-base-btc.svg"></image>
+                                                </g>
+
+                                                <!-- eth-base-shadow -->
+                                                <g transform="matrix(1,0,0,1,215,580)" opacity="0.8">
+                                                    <image class="animated" data-animation="fadeInUpShorter" data-animation-delay="2s" width="90px" height="90px" preserveAspectRatio="xMidYMid slice" xlink:href="theme-assets/images/svg/svg-animation/icon-base-shadow.svg"></image>
+                                                </g>
+
+                                                <!-- eth-base -->
+                                                <g transform="matrix(1,0,0,1,215,545)" opacity="1">
+                                                    <image class="animated" data-animation="fadeInUpShorter" data-animation-delay="1.5s" width="110px" height="140px" preserveAspectRatio="xMidYMid slice" xlink:href="theme-assets/images/svg/svg-animation/icon-base-eth.svg"></image>
+                                                </g>
+
+                                                <!-- neo-base-shadow -->
+                                                <g transform="matrix(1,0,0,1,238,670)" opacity="0.8">
+                                                    <image class="animated" data-animation="fadeInUpShorter" data-animation-delay="2s" width="120px" height="120px" preserveAspectRatio="xMidYMid slice" xlink:href="theme-assets/images/svg/svg-animation/icon-base-shadow.svg"></image>
+                                                </g>
+
+                                                <!-- neo-base -->
+                                                <g transform="matrix(1,0,0,1,240.8,660.9)" opacity="1">
+                                                    <image class="animated" data-animation="fadeInUpShorter" data-animation-delay="1.7s" width="120px" height="120px" preserveAspectRatio="xMidYMid slice" xlink:href="theme-assets/images/svg/svg-animation/icon-base-neo.svg"></image>
+                                                </g>
+
+                                                <!-- btc -->
+                                                <g transform="matrix(1,0,0,1,85,550)" opacity="1">
+                                                    <image class="animated cic-logo" data-animation="fadeInUpShortest" data-animation-delay="2s" width="80px" height="80px" preserveAspectRatio="xMidYMid slice" xlink:href="theme-assets/images/svg/svg-animation/btc.svg"></image>
+                                                </g>
+
+                                                <!-- eth -->
+                                                <g transform="matrix(1,0,0,1,230,550)" opacity="1">
+                                                    <image class="animated cic-logo" data-animation="fadeInUpShortest" data-animation-delay="1.6s" width="75px" height="75px" preserveAspectRatio="xMidYMid slice" xlink:href="theme-assets/images/svg/svg-animation/eth.svg"></image>
+                                                </g>
+
+                                                <!-- neo -->
+                                                <g transform="matrix(1,0,0,1,255,650)" opacity="1">
+                                                    <image class="animated cic-logo" data-animation="fadeInUpShortest" data-animation-delay="1.8s" width="90px" height="90px" preserveAspectRatio="xMidYMid slice" xlink:href="theme-assets/images/svg/svg-animation/neo.svg"></image>
+                                                </g>
+
+                                                <!-- Step-2 -->
+                                                <!-- base-shaodw -->
+                                                <g transform="matrix(1,0,0,1,152.1,445.61)" opacity="0.8">
+                                                    <image class="animated" data-animation="fadeInLeftShorter" data-animation-delay="1.4s" width="406px" height="274px" preserveAspectRatio="xMidYMid slice" xlink:href="theme-assets/images/svg/svg-animation/base-shadow.svg"></image>
+                                                </g>
+                                                <!-- base -->
+                                                <g transform="matrix(1,0,0,1,150,300)" opacity="0.95">
+                                                    <image class="animated" data-animation="fadeInLeftShorter" data-animation-delay="1.4s" width="560px" height="360px" preserveAspectRatio="xMidYMid slice" xlink:href="theme-assets/images/svg/svg-animation/base.svg"></image>
+                                                </g>
+
+                                                <!-- logo-circle-path -->
+                                                <g transform="matrix(1,0,0,1,440,430)" opacity="1">
+                                                    <g opacity="1" transform="matrix(1.0196,0,0,0.9676,-49.875,71.125)">
+                                                        <path class="animated" data-animation="path" data-animation-delay="1.4s" stroke-linecap="round" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(99,125,221)" stroke-opacity="1" stroke-width="4" d=" M57.584999084472656,53.77799987792969 C41.18600082397461,60.93600082397461 21.354000091552734,65.125 0,65.125 C-56.362789154052734,65.125 -102.125,35.94248580932617 -102.125,0 C-102.125,-35.94248580932617 -56.362789154052734,-65.125 0,-65.125 C0,-65.125 0,-65.125 0,-65.125 C56.362789154052734,-65.125 102.125,-35.94248580932617 102.125,0 C102.125,22.325000762939453 84.47000122070312,42.04199981689453 57.584999084472656,53.77799987792969">
+
+                                                        </path>
+                                                    </g>
+                                                </g>
+
+                                                <!-- neo-path -->
+                                                <g transform="matrix(1,0,0,1,345,595)" opacity="1">
+                                                    <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+                                                        <path class="animated" data-animation="path-reverse" data-animation-delay="1.4s" stroke-linecap="butt" stroke-linejoin="miter" stroke-dashoffset="20" fill="none" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(99,125,221)" stroke-opacity="1" stroke-width="3" d="M-5,96.431l65 -35  c0,-5,0-15.4,0-10l1-10c0,0-1.2-5.6,6-8l50-30,10 -5l-50-32"></path>
+                                                    </g>
+                                                </g>
+
+                                                <!-- eth-path -->
+                                                <g transform="matrix(1,0,0,1,290,545)" opacity="1">
+                                                    <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+                                                        <path class="animated" data-animation="path-reverse" data-animation-delay="1.4s" stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(99,125,221)" stroke-opacity="1" stroke-width="3" d="M30.239,55.447l11-6  c0,0,5-1.2,4-25v-15"></path>
+                                                    </g>
+                                                </g>
+
+                                                <!-- btc-path -->
+                                                <g transform="matrix(1,0,0,1,175,430)" opacity="1">
+                                                    <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+                                                        <path class="animated" data-animation="path" data-animation-delay="2.4s" stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(99,125,221)" stroke-opacity="1" stroke-width="3" d="M110.68,64.545l-25-15  c0,0-6.14-6-14-1l-48,27c0,10 0,10.16 0 60v 13c0,0,-10 5,-30 15"></path>
+                                                    </g>
+                                                </g>
+                                                <!-- logo-base -->
+                                                <g transform="matrix(1,0,0,1,255,345)" opacity="0.5">
+                                                    <image class="animated" data-animation="fadeInLeftShorter" data-animation-delay="1.4s" width="250px" height="260px" preserveAspectRatio="xMidYMid slice" xlink:href="theme-assets/images/svg/svg-animation/logo-base.svg"></image>
+                                                </g>
+
+                                                <!-- logo-shaodw -->
+                                                <g transform="matrix(0.1385,0,0,0.1175,275,385)" opacity="0.65">
+                                                    <image class="animated" data-animation="fadeInUpShorter" data-animation-delay="2.2s" width="1500px" height="1500px" preserveAspectRatio="xMidYMid slice" xlink:href="theme-assets/images/svg/svg-animation/logo-shadow.svg"></image>
+                                                </g>
+                                                <!-- logo -->
+                                                <g transform="matrix(1,0,0,1,265,340)" opacity="1">
+                                                    <image class="animated cic-logo" data-animation="fadeInUpShortest" data-animation-delay="2.4s" width="250px" height="200px" preserveAspectRatio="xMidYMid slice" xlink:href="theme-assets/images/svg/svg-animation/logo.svg"></image>
+                                                </g>
+
+                                                <!-- Step 3 -->
+                                                <!-- base-shaodw -->
+                                                <g transform="matrix(1,0,0,1,305.1,277.61)" opacity="0.8">
+                                                    <image class="animated" data-animation="fadeInLeftShorter" data-animation-delay="1.8s" width="406px" height="274px" preserveAspectRatio="xMidYMid slice" xlink:href="theme-assets/images/svg/svg-animation/base-shadow.svg"></image>
+                                                </g>
+
+                                                <!-- base- -->
+                                                <g transform="matrix(1,0,0,1,277,130)" opacity="0.95">
+                                                    <image class="animated" data-animation="fadeInLeftShorter" data-animation-delay="1.8s" width="580px" height="350px" preserveAspectRatio="xMidYMid slice" xlink:href="theme-assets/images/svg/svg-animation/base.svg"></image>
+                                                </g>
+
+                                                <!-- car-path -->
+                                                <g transform="matrix(1,0,0,1,320.5,330.5)" opacity="1">
+                                                    <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+                                                        <path class="animated" data-animation="path" data-animation-delay="2.4s" stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(99,125,221)" stroke-opacity="1" stroke-width="3" d="M0,125l-35-20  c0,0-6.714-2.571,1-7l26-15c0,0,14.857-10.143,55-35v-25c0,0,0 0,23-16l20-15"></path>
+                                                    </g>
+                                                </g>
+
+                                                <!-- car-base-shadow -->
+                                                <g transform="matrix(1,0,0,1,415,235)" opacity="0.8">
+                                                    <image class="animated" data-animation="fadeInUpShorter" data-animation-delay="3s" width="100px" height="100px" preserveAspectRatio="xMidYMid slice" xlink:href="theme-assets/images/svg/svg-animation/icon-base-shadow.svg"></image>
+                                                </g>
+                                                <!-- car-base -->
+                                                <g transform="matrix(1,0,0,1,365,200)" opacity="1">
+                                                    <image class="animated" data-animation="fadeInUpShorter" data-animation-delay="2.1s" width="180px" height="150px" preserveAspectRatio="xMidYMid slice" xlink:href="theme-assets/images/svg/svg-animation/icon-base-car.svg"></image>
+                                                </g>
+
+                                                <!-- car -->
+                                                <g transform="matrix(1,0,0,1,400,200)" opacity="1">
+                                                    <image class="animated cic-logo" data-animation="fadeInUpShortest" data-animation-delay="2.4s" width="120px" height="120px" preserveAspectRatio="xMidYMid slice" xlink:href="theme-assets/images/svg/svg-animation/car.svg"></image>
+                                                </g>
+
+                                                <!-- mobile-path -->
+                                                <g transform="matrix(1,0,0,1,475,410)" opacity="1">
+                                                    <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+                                                        <path class="animated" data-animation="path" data-animation-delay="2.4s" stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(99,125,221)" stroke-opacity="1" stroke-width="3" d="M0.261,128.447l50,30  c0,0,4.15,5.17,14,0l12-6c0,0,6-2,5-8v-80c0,0-0.5-9,9-12l80-45c0,0,5.75-3.5,0-7l-32-16"></path>
+                                                    </g>
+                                                </g>
+
+                                                <!-- mobile-base-shadow -->
+                                                <g transform="matrix(1,0,0,1,565,300)" opacity="0.8">
+                                                    <image class="animated" data-animation="fadeInUpShorter" data-animation-delay="3s" width="120px" height="120px" preserveAspectRatio="xMidYMid slice" xlink:href="theme-assets/images/svg/svg-animation/icon-base-shadow.svg"></image>
+                                                </g>
+
+                                                <!-- mobile-base -->
+                                                <g transform="matrix(1,0,0,1,520,270)" opacity="1">
+                                                    <image class="animated" data-animation="fadeInUpShorter" data-animation-delay="2.3s" width="180px" height="180px" preserveAspectRatio="xMidYMid slice" xlink:href="theme-assets/images/svg/svg-animation/icon-base-mobile.svg"></image>
+                                                </g>
+
+                                                <!-- mobile -->
+                                                <g transform="matrix(1,0,0,1,570,300)" opacity="1">
+                                                    <image class="animated cic-logo" data-animation="fadeInUpShortest" data-animation-delay="2.4s" width="80px" height="100px" preserveAspectRatio="xMidYMid slice" xlink:href="theme-assets/images/svg/svg-animation/mobile.svg"></image>
+                                                </g>
+
+                                                <!-- home-path -->
+                                                <g transform="matrix(1,0,0,1,485,250)" opacity="1">
+                                                    <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+                                                        <path class="animated" data-animation="path-reverse" data-animation-delay="1.4s" stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4" stroke="rgb(99,125,221)" stroke-opacity="1" stroke-width="3" d="M140, 10l-150,100c0,80 10,45 -10,78v20"></path>
+                                                    </g>
+                                                </g>
+
+                                                <!-- home-base-shadow -->
+                                                <g transform="matrix(1,0,0,1,570,150)" opacity="0.8">
+                                                    <image class="animated" data-animation="fadeInUpShorter" data-animation-delay="3s" width="200px" height="200px" preserveAspectRatio="xMidYMid slice" xlink:href="theme-assets/images/svg/svg-animation/icon-base-shadow.svg"></image>
+                                                </g>
+                                                <!-- home-base -->
+                                                <g transform="matrix(1,0,0,1,570.8,140.9)" opacity="1">
+                                                    <image class="animated" data-animation="fadeInUpShorter" data-animation-delay="2.4s" width="200px" height="150px" preserveAspectRatio="xMidYMid slice" xlink:href="theme-assets/images/svg/svg-animation/icon-base-home.svg"></image>
+                                                </g>
+                                                <!-- home -->
+                                                <g transform="matrix(1,0,0,1,600,90)" opacity="1">
+                                                    <image class="animated cic-logo" data-animation="fadeInUpShortest" data-animation-delay="2.5s" class="svg-elements-2" width="140px" height="140px" preserveAspectRatio="xMidYMid slice" xlink:href="theme-assets/images/svg/svg-animation/home.svg"></image>
+                                                </g>
+
+                                                <!-- step-1-text -->
+                                                <g transform="matrix(1,0,0,1,734,400)" opacity="0.8">
+                                                    <image class="animated" data-animation="fadeInLeftShorter" data-animation-delay="2s" width="120px" height="26px" preserveAspectRatio="xMidYMid slice" xlink:href="theme-assets/images/svg/svg-animation/physical.svg"></image>
+                                                </g>
+                                                <!-- step-2-text -->
+                                                <g transform="matrix(1,0,0,1,602,569)" opacity="0.8">
+                                                    <image class="animated" data-animation="fadeInLeftShorter" data-animation-delay="1.6s" width="180px" height="24px" preserveAspectRatio="xMidYMid slice" xlink:href="theme-assets/images/svg/svg-animation/cic-blockchain.svg"></image>
+                                                </g>
+                                                <!-- step-3-text -->
+                                                <g transform="matrix(1,0,0,1,432,745)" opacity="0.8">
+                                                    <image class="animated mainnet-text" data-animation="fadeInLeftShorter" data-animation-delay="1.2s" width="160px" height="24px" preserveAspectRatio="xMidYMid slice" xlink:href="theme-assets/images/svg/svg-animation/digital.svg"></image>
+                                                </g>
+                                            </g>
+                                            <defs>
+                                                <clipPath id="svg_animation_mask">
+                                                    <rect width="857" height="807" x="0" y="0"></rect>
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--/ Header: 3D Animation -->
+            <!-- About -->
+            <section class="about section-padding" id="about">
+                <div class="container">
+                    <div class="heading text-center">
+                        <div>
+                            <h2 class="title">@Resources.Resources.What_BCASH</h2>
+                        </div>
+                        <p class="content-desc text-center">
+                            @Resources.Resources.What_BCASH_Title
+                        </p>
+                    </div>
+                    <div class="content-area">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6 What-BCASH-content">
+                                @Html.Raw(Resources.Resources.What_BCASH_Content)
+                            </div>
+                            <div class="col-md-12 col-lg-6">
+                                <div class="position-relative what-is-crypto-img float-xl-right">
+                                    <img class="img-fluid" src="theme-assets/images/what-is-crypto.png" alt="@Resources.Resources.What_BCASH">
+                                    <div class="play-video text-center">
+                                        <a href="#" class="play rounded-circle btn-gradient-orange btn-glow video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/UkzjxzMxe24" data-target="#ico-modal"><i class="ti-control-play"></i></a>
+                                        <span class="mt-2 d-none d-md-block">@Resources.Resources.How_it_work</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--/ About -->
+            <!-- Strategy Partners -->
+            @*<section id="partners" class="partners">
+                    <div class="container">
+                        <div class="heading text-center">
+                            <div>
+                                <h2 class="title">@Resources.Resources.AS_SEEN_ON</h2>
+                            </div>
+                        </div>
+                        <div id="basicSlider">
+                            <div class="MS-content">
+                                <div class="item"> <a href="https://mnode.cash/" target="_blank"> <img src="~/theme-assets/images/bcash-retro.png" alt="" /> </a> </div>
+                                <div class="item"> <a href="http://koplasma.com/" target="_blank"> <img src="~/theme-assets/images/koplasma.png" alt="" /> </a> </div>
+                                <div class="item"> <a href="https://mnode.cash/" target="_blank"> <img src="~/theme-assets/images/bcash-retro.png" alt="" /> </a> </div>
+                                <div class="item"> <a href="http://marvistar.com/en/" target="_blank"> <img src="~/theme-assets/images/Marvistar.png" alt="" /> </a> </div>
+                                <div class="item"> <a href="http://koplasma.com/" target="_blank"> <img src="~/theme-assets/images/koplasma.png" alt="" /> </a> </div>
+                                <div class="item"> <a href="https://mnode.cash/" target="_blank"> <img src="~/theme-assets/images/bcash-retro.png" alt="" /> </a> </div>
+                                <div class="item"> <a href="http://koplasma.com/" target="_blank"> <img src="~/theme-assets/images/koplasma.png" alt="" /> </a> </div>
+                                <div class="item"> <a href="http://marvistar.com/en/" target="_blank"> <img src="~/theme-assets/images/Marvistar.png" alt="" /> </a> </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>*@
+            <!--/ Strategy Partners -->
+            <!-- BCASH's Key claim-->
+            <section id="key-claim">
+                <div class="container">
+                    <div class="heading text-center">
+                        @*<div>
+                                <h2 class="title">@Resources.Resources.BCASH_key_claims</h2>
+                            </div>*@
+                    </div>
+                    <div class="bcash-eplatform">
+                        <div class="row align-items-center">
+                            <div class="col-md-12 col-lg-6 ">
+                                <img src="theme-assets/images/bcash_eplatform.png" class="logo-header" alt="BCASH Eplatform" />
+                                <hr />
+                                <p>@Html.Raw(Resources.Resources.PLATFORM_CONTENT)</p>
+                            </div>
+                            <div class="col-md-12 col-lg-6 eplatform">
+                                <img src="~/theme-assets/images/eplatform.png" class="problems-img" alt="problems-graphic">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bcore" id="bcore">
+                        <div class="row align-items-center">
+                            <div class="col-md-12 col-lg-6 core">
+                                <iframe width="500" height="315" src="https://www.youtube.com/embed/s7fhM_Cy-Ek" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            </div>
+                            <div class="col-md-12 col-lg-6 core-content">
+                                <a name="BCORE"></a> <img src="theme-assets/images/bcash_core.png" class="logo-header" alt="Bcore" />
+                                <hr />
+                                <p class="text-light">
+                                    @Html.Raw(Resources.Resources.BCORE_CONTENT)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bcash-pay">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6">
+                                <a name="BCASH"><img src="theme-assets/images/bcash_pay.png" alt="Bcash Pay" class="logo-header" /></a>
+                                <hr />
+                                @Html.Raw(Resources.Resources.MOBILE_CONTENT)
+                            </div>
+                            <div class="col-md-12 col-lg-6 mobile">
+                                <img src="theme-assets/images/pay.png" class="problems-img" alt="problems-graphic">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bcash-card">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6 card-img">
+                                <img src="theme-assets/images/card.png" class="problems-img" alt="problems-graphic">
+                            </div>
+                            <div class="col-md-12 col-lg-6 card-content">
+                                <img src="theme-assets/images/bcash_card.png" alt="Bcore" class="logo-header" />
+                                <hr />
+                                <p class="text-light">
+                                    @Html.Raw(Resources.Resources.CARD_CONTENT)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bcash-atm" id="bcash-atm">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6">
+                                <a name="network"><img src="theme-assets/images/bcash_atm.png" alt="Bcash Pay" class="logo-header" /></a>
+                                <hr />
+                                <p class="text-light">
+                                    @Html.Raw(Resources.Resources.ATM_CONTENT)
+                                </p>
+                            </div>
+                            <div class="col-md-12 col-lg-6 atm">
+                                <img src="theme-assets/images/atm.png" class="problems-img" alt="problems-graphic">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bcash-merchant">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6 merchant">
+                                <img src="theme-assets/images/merchant.png" class="problems-img" alt="problems-graphic">
+                            </div>
+                            <div class="col-md-12 col-lg-6 merchant-content">
+                                <img src="theme-assets/images/bcash_merchant.png" class="logo-header" alt="Alternate Text" />
+                                <hr />
+                                @Html.Raw(Resources.Resources.MERCHANTS_CONTENT)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bcash-coin">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6">
+                                <img src="theme-assets/images/bcash_coin.png" class="logo-header" alt="Alternate Text" />
+                                <hr />
+                                @Html.Raw(Resources.Resources.COIN_CONTENT)
+                            </div>
+                            <div class="col-md-12 col-lg-6 coin">
+                                <img src="theme-assets/images/bcashcoin.png" class="problems-img" alt="problems-graphic">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--/ BCASH's Key claim-->
+            <!-- Whitepaper -->
+            <section id="whitepaper" class="whitepaper section-padding">
+                <div class="container">
+                    <div class="heading text-center">
+                        <h2 class="title">@Resources.Resources.SOCIAL_NETWORK</h2>
+                        @*<p class="content-desc text-center">
+                                @Html.Raw(Resources.Resources.Whitepaper_Title)
+                            </p>*@
+                    </div>
+                    @*<div class="row">
+                        <div class="col-lg-5 col-md-12">
+                            <div class="whitepaper-img">
+                                <img class="img-fluid" src="theme-assets/images/whitepaper.png" alt="whitepaper">
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-md-12">
+                            <div class="content-area">
+                                <h4 class="title">@Resources.Resources.Read_Whitepaper</h4>
+                                @Html.Raw(Resources.Resources.Read_Whitepaper_Content)*@
+                    <ul class="social">
+                        <li>
+                            <a href="https://www.youtube.com/channel/UC2qtcPtWOgpBsrjxJPfApig?view_as=subscriber?&ab_channel=BcoreBcash" target="_blank">
+                                <i class="fa fa-youtube-play"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.reddit.com/user/BcoreBcash" target="_blank">
+                                <i class="fa fa-reddit-alien"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/bcashpay/" target="_blank">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://t.me/Bcashpay" target="_blank">
+                                <i class="fa fa-telegram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/bcashpay/?_rdc=1&_rdr" target="_blank">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+
+                            <a href="https://medium.com/bcashbcore/what-is-bcash-58fad2b4b2aa" target="_blank">
+                                <i class="fa fa-medium"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/bcashpay" target="_blank">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.meetup.com/BcashPay-Ho-Chi-Minh/" target="_blank">
+                                <i class="fa fa-meetup"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    @*<div class="whitepaper-languages">
+                            <div class="row">
+                                <div class="col-6 col-md-3 text-center mt-4">
+                                    <a href="#" title="English">
+                                        <img src="theme-assets/images/flag-1.png" alt="English">
+                                        <div class="lang-text">
+                                            <span class="icon ti-download mr-1"></span>
+                                            <span class="language">English</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-6 col-md-3 text-center mt-4">
+                                    <a href="#" title="Japanese">
+                                        <img src="theme-assets/images/flag-2.png" alt="English">
+                                        <div class="lang-text">
+                                            <span class="icon ti-download mr-1"></span>
+                                            <span class="language">Japanese</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-6 col-md-3 text-center mt-4">
+                                    <a href="#" title="Russian">
+                                        <img src="theme-assets/images/flag-3.png" alt="English">
+                                        <div class="lang-text">
+                                            <span class="icon ti-download mr-1"></span>
+                                            <span class="language">Russian</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-6 col-md-3 text-center mt-4">
+                                    <a href="#" title="Chinese">
+                                        <img src="theme-assets/images/flag-4.png" alt="English">
+                                        <div class="lang-text">
+                                            <span class="icon ti-download mr-1"></span>
+                                            <span class="language">Chinese</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                                </div>
+                                        </div>
+                                    </div>*@
+                </div>
+            </section>
+            <!--/ Whitepaper -->
+            <!-- Pre-Sale & Mobile Apps -->
+            <section id="token-sale-mobile-app" class="token-sale-mobile-app section-padding ">
+                <!-- Tokens Sale -->
+                <div class="token-sale" id="token-sale">
+                    <div class="container">
+                        <div class="heading text-center">
+                            <h2 class="title">@Resources.Resources.Tokens_Sale</h2>
+
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-xl-5 col-lg-6 col-md-12">
+                                <div class="token-sale-counter">
+                                    <h5>@Resources.Resources.ICO_start</h5>
+                                    <div class="token-details text-center">
+                                        <!-- ICO Counter -->
+                                        <div class="clock-counter mb-4">
+                                            <div class="clock ml-0">
+                                                @*@Model.EndICODate.ToString("MMMM dd", (new System.Globalization.CultureInfo("en-US")))*@
+                                                <ul>
+                                                    <li>
+                                                        <div class="retangleBlack">
+                                                            <p>@Resources.Resources.DAY</p>
+                                                            <h1 id="countdowndays" class="inn">12</h1>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="retangleBlack">
+                                                            <p>@Resources.Resources.HOUR</p>
+                                                            <h1 id="countdownhours" class="inn">24</h1>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="retangleBlack">
+                                                            <p>@Resources.Resources.Min</p>
+                                                            <h1 id="countdownminutes" class="inn">06</h1>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="retangleBlack">
+                                                            <p>@Resources.Resources.Sec</p>
+                                                            <h1 id="countdownseconds" class="inn">35</h1>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                            @*<div class="message"></div>*@
+                                        </div>
+                                        <!-- ICO Counter -->
+                                        <!-- Progressbar -->
+                                        <div class="loading-bar mb-2 position-relative">
+                                            <div class="progres-area pb-5">
+                                                <ul class="progress-top">
+
+                                                    <li class="pre-sale"></li>
+                                                    <li></li>
+                                                    <li>@Resources.Resources.Phase1</li>
+                                                    <li></li>
+                                                    <li>@Resources.Resources.Phase2</li>
+                                                    <li></li>
+                                                    <li></li>
+                                                    <li>@Resources.Resources.Phase3</li>
+                                                </ul>
+                                                <ul class="progress-bars">
+                                                    <li></li>
+                                                    <li></li>
+                                                    <li>|</li>
+                                                    <li></li>
+                                                    <li>|</li>
+                                                    <li></li>
+                                                    <li></li>
+                                                    <li>|</li>
+                                                </ul>
+                                                <div class="progress">
+                                                    <div class="progress-bar progress-bar-custom" role="progressbar" style="width: 10%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                                <div class="progress-bottom">
+                                                    <div class="progress-info"><span id="CurrentICOQuantity">1M</span> @Resources.Resources.BCASH_Sold_Out  <span id="TotalICOQuantity">19M</span> BCASH.</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--/ Progressbar -->
+                                        <a href="https://ico.bcashpay.org/account/index" class="btn btn-lg btn-glow btn-gradient-blue">@Resources.Resources.Purchase_BCASH</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-7 col-lg-6 col-md-12 mt-5 pl-4">
+                                <div class="row">
+                                    <p class="col-12">
+                                        @Html.Raw(Resources.Resources.Success_Soft_Cap)
+                                    </p>
+                                    <div class="col-md-5 phase-time">
+                                        <ul class="token-sale-info">
+                                            @Html.Raw(Resources.Resources.Success_Time)
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-7 pr-0 categories-token">
+                                        <ul class="token-sale-info">
+                                            @Html.Raw(Resources.Resources.Catelogy_Token_Sale)
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/ Tokens Sale -->
+                <!-- Crypto ico App -->
+                <div id="mobile-app" class="mobile-app">
+                    <div class="container">
+                        <div class="heading text-center">
+                            <h2 class="title">@Resources.Resources.Mobile_App</h2>
+                            <p class="content-desc text-center">
+                                @Html.Raw(Resources.Resources.App_title)
+                            </p>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-lg-12 col-md-12 text-center mobile-app-content">
+                                <a href="https://github.com/bcashpay/bcash/releases/tag/v0.12.2.3" target="_blank" class="android mobile-button btn btn-gradient-orange btn-glow mx-3">
+                                    <span>@Resources.Resources.Windows</span>
+                                    @*<img src="theme-assets/images/icon-android.png" alt="">*@
+                                    <i class="fa fa-windows"></i>
+                                </a>
+                                <a href="https://github.com/bcashpay/bcash/releases/tag/v0.12.2.3" target="_blank" class="apple mobile-button btn btn-gradient-orange btn-glow mx-3">
+                                    <span>@Resources.Resources.MacOS</span>
+                                    @*<img src="theme-assets/images/icon-apple.png" alt="">*@
+                                    <i class="fa fa-apple macos"></i>
+                                </a>
+                                <a href="https://github.com/bcashpay/bcash/releases/tag/v0.12.2.3" target="_blank" class="android mobile-button btn btn-gradient-orange btn-glow mx-3 ">
+                                    <span>@Resources.Resources.Linux</span>
+                                    @*<img src="theme-assets/images/icon-android.png" alt="">*@
+                                    <i class="fa fa-linux"></i>
+                                </a>
+                                <a href="https://github.com/bcashpay/bcash/releases/tag/v0.12.2.3" name="wallet" target="_blank" class="android mobile-button btn btn-gradient-orange btn-glow mx-3">
+                                    <span>@Resources.Resources.Android</span>
+                                    @*<img src="theme-assets/images/icon-android.png" alt="">*@
+                                    <i class="fa fa-android"></i>
+                                </a>
+                                <a href="https://github.com/bcashpay/bcash/releases/tag/v0.12.2.3" target="_blank" class="apple mobile-button btn btn-gradient-orange btn-glow mx-3">
+                                    <span>@Resources.Resources.IOS</span>
+                                    @*<img src="theme-assets/images/icon-apple.png" alt="">*@
+                                    <i class="fa fa-apple"></i>
+                                </a>
+                            </div>
+                            @*<div class="col-lg-5 col-md-12 move-first">
+                                    <div class="mobile-app-imgs">
+                                        <img src="theme-assets/images/mobile-app-1.png" alt="mobile-app" class="mobile-app-img-1">
+                                        <img src="theme-assets/images/mobile-app-2.png" alt="mobile-app" class="mobile-app-img-2">
+                                        <img src="theme-assets/images/mobile-app-3.png" alt="mobile-app" class="mobile-app-img-3">
+                                        <img src="theme-assets/images/mobile-app-4.png" alt="mobile-app" class="mobile-app-img-4">
+                                    </div>
+                                </div>*@
+                        </div>
+                    </div>
+                </div>
+                <!--/ Crypto ico App -->
+            </section>
+            <!--/ Pre-Sale & Mobile Apps -->
+            <!-- Roadmap -->
+            <section id="roadmap" class="roadmap section-padding">
+                <div class="container">
+                    <div class="heading text-center">
+                        <div>
+                            <h2 class="title">@Resources.Resources.ICO_And_RoadMap</h2>
+                        </div>
+                        <p class="content-desc text-center">
+                            @Html.Raw(Resources.Resources.Roadmap_title)
+                        </p>
+                    </div>
+                    <div class="road-map">
+                        <span class="icon icon-light pa z15" style="left:45%;top:22px;margin-left:-27px;"></span>
+                        <div id="road-map">
+                            <div class="item pr plr30 h50 active" style="border-bottom:2px solid #fff; width:400px !important; ">
+                                @Html.Raw(Resources.Resources.ROADMAP_CONTENT_1)
+                            </div>
+                            <div class="item pr plr30 h50" style="border-bottom:2px solid #fff; width:400px !important; ">
+                                @Html.Raw(Resources.Resources.ROADMAP_CONTENT_2)
+                            </div>
+                            <div class="item pr plr30 h50" style="border-bottom:2px solid #fff; width:400px !important; ">
+                                @Html.Raw(Resources.Resources.ROADMAP_CONTENT_3)
+                            </div>
+                            <div class="item pr plr30 h50" style="border-bottom:2px solid #fff; width:400px !important; ">
+                                @Html.Raw(Resources.Resources.ROADMAP_CONTENT_4)
+                            </div>
+                            <div class="item pr plr30 h50" style="border-bottom:2px solid #fff; width:400px !important; ">
+                                @Html.Raw(Resources.Resources.ROADMAP_CONTENT_5)
+                            </div>
+                            <div class="item pr plr30 h50" style="border-bottom:2px solid #fff; width:400px !important;">
+                                @Html.Raw(Resources.Resources.ROADMAP_CONTENT_6)
+                            </div>
+                        </div>
+                        @*<div class="row">
+                                <div class="col-12">
+                                    <div class="roadmap-container">
+                                        <div class="swiper-container">
+                                            <div class="swiper-wrapper timeline">
+                                                <div class="swiper-slide active">
+                                                    @Html.Raw(Resources.Resources.ROADMAP_CONTENT_1)
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    @Html.Raw(Resources.Resources.ROADMAP_CONTENT_2)
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    @Html.Raw(Resources.Resources.ROADMAP_CONTENT_3)
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    @Html.Raw(Resources.Resources.ROADMAP_CONTENT_4)
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    @Html.Raw(Resources.Resources.ROADMAP_CONTENT_5)
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    @Html.Raw(Resources.Resources.ROADMAP_CONTENT_6)
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-control">
+                                            <span class="prev-slide"></span>
+                                            <span class="next-slide"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>*@
+                    </div>
+                </div>
+            </section>
+            <!--/ Roadmap -->
+            <!-- Token Stats -->
+            <section id="token-distribution" class="token-distribution section-padding">
+                <div class="container">
+                    <div class="heading text-center">
+                        <div>
+                            <h2 class="title">@Resources.Resources.Token</h2>
+                        </div>
+                        <p class="content-desc text-center">
+                            @Html.Raw(Resources.Resources.Token_Title)
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-lg-6 move-first">
+                            <div class="token-img token-chart-project">
+                                <img src="~/theme-assets/images/chart-project.png" class="img-fluid" alt="token-distribution" />
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-6 move-first">
+                            <div class="token-img">
+                                <img class="img-fluid" src="~/theme-assets/images/chart-bcashico.png" alt="token-distribution">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--/ Token Stats -->
+            <!-- Team -->
+            <section id="team" class="team section-padding ">
+                <div class="container">
+                    <div class="heading text-center">
+                        <div>
+                            <h2 class="title">@Resources.Resources.Team</h2>
+                        </div>
+                    </div>
+
+                    <div class="team-profile mt-5">
+                        <div class="row mb-5">
+                            <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
+                                <div class="d-flex">
+                                    <div class="team-img float-left mr-3" data-toggle="modal" data-target="#teamUser1">
+                                        <img src="theme-assets/images/user-1.png" alt="team-profile-1" class="rounded-circle" width="128">
+                                    </div>
+
+                                    <div class="profile align-self-center">
+                                        <div class="name">Gapslee</div>
+                                        <div class="role">@Resources.Resources.Gapslee_COMPETENCE</div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
+                                <div class="d-flex team-member">
+                                    <div class="team-img float-left mr-3" data-toggle="modal" data-target="#teamUser2">
+                                        <img src="theme-assets/images/user-2.png" alt="team-profile-1" class="rounded-circle" width="128">
+                                    </div>
+                                    <div class="profile align-self-center">
+                                        <div class="name">Dato’ Sri Tiong</div>
+                                        <div class="role">@Resources.Resources.Dato_Sri_Tiong_COMPETENCE</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4 mb-5" data-toggle="modal" data-target="#teamUser3">
+                                <div class="d-flex">
+                                    <div class="team-img float-left mr-3">
+                                        <img src="theme-assets/images/user-3.png" alt="team-profile-1" class="rounded-circle" width="128">
+                                    </div>
+                                    <div class="profile align-self-center">
+                                        <div class="name">Tommy Cao</div>
+                                        <div class="role">@Resources.Resources.Tommy_Cao_COMPETENCE</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4 mb-5" data-toggle="modal" data-target="#teamUser4">
+                                <div class="d-flex team-member">
+                                    <div class="team-img float-left mr-3">
+                                        <img src="theme-assets/images/user-4.png" alt="team-profile-1" class="rounded-circle" width="128">
+                                    </div>
+                                    <div class="profile align-self-center">
+                                        <div class="name">Jackie Chong</div>
+                                        <div class="role">@Resources.Resources.Jackie_Chong_COMPETENCE</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4 mb-5" data-toggle="modal" data-target="#teamUser5">
+                                <div class="d-flex team-member">
+                                    <div class="team-img float-left mr-3">
+                                        <img src="theme-assets/images/user-5.png" alt="team-profile-1" class="rounded-circle" width="128">
+                                    </div>
+                                    <div class="profile align-self-center">
+                                        <div class="name">HazlyHussien</div>
+                                        <div class="role">@Resources.Resources.HazlyHussien_COMPETENCE</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
+                                <div class="d-flex team-member">
+                                    <div class="team-img float-left mr-3" data-toggle="modal" data-target="#teamUser6">
+                                        <img src="theme-assets/images/user-6.png" alt="team-profile-1" class="rounded-circle" width="128">
+                                    </div>
+                                    <div class="profile align-self-center">
+                                        <div class="name">Airil Chong</div>
+                                        <div class="role">@Resources.Resources.Airil_Chong_COMPETENCE</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-12 col-md-6 col-lg-4 mb-5" data-toggle="modal" data-target="#teamUser7">
+                                <div class="d-flex">
+                                    <div class="team-img float-left mr-3">
+                                        <img src="theme-assets/images/user-7.png" alt="team-profile-1" class="rounded-circle" width="128">
+                                    </div>
+                                    <div class="profile align-self-center">
+                                        <div class="name">Dato’ Sri Zamry</div>
+                                        <div class="role">@Resources.Resources.Dato_Sri_Zamry_COMPETENCE</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
+                                <div class="d-flex">
+                                    <div class="team-img float-left mr-3" data-toggle="modal" data-target="#teamUser8">
+                                        <img src="theme-assets/images/user-8.png" alt="team-profile-1" class="rounded-circle" width="128">
+                                    </div>
+                                    <div class="profile align-self-center">
+                                        <div class="name">Tengku Idzham Tengku Kamarudin</div>
+                                        <div class="role">@Resources.Resources.Tengku_Idzham_Tengku_Kamarudin_COMPETENCE</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
+                                <div class="d-flex team-member">
+                                    <div class="team-img float-left mr-3" data-toggle="modal" data-target="#teamUser9">
+                                        <img src="theme-assets/images/user-9.png" alt="team-profile-1" class="rounded-circle" width="128">
+                                    </div>
+                                    <div class="profile align-self-center">
+                                        <div class="name">Richard Tai</div>
+                                        <div class="role">@Resources.Resources.Richard_Tai_COMPETENCE</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4 mb-5" data-toggle="modal" data-target="#teamUser10">
+                                <div class="d-flex team-member">
+                                    <div class="team-img float-left mr-3">
+                                        <img src="theme-assets/images/user-10.png" alt="team-profile-1" class="rounded-circle" width="128">
+                                    </div>
+                                    <div class="profile align-self-center">
+                                        <div class="name">Albert New</div>
+                                        <div class="role">@Resources.Resources.Albert_New_COMPETENCE</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4 mb-5" data-toggle="modal" data-target="#teamUser11">
+                                <div class="d-flex">
+                                    <div class="team-img float-left mr-3">
+                                        <img src="theme-assets/images/user-11.png" alt="team-profile-1" class="rounded-circle" width="128">
+                                    </div>
+                                    <div class="profile align-self-center">
+                                        <div class="name">Max Lim</div>
+                                        <div class="role">@Resources.Resources.Max_Lim_COMPETENCE</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4 mb-5" data-toggle="modal" data-target="#teamUser12">
+                                <div class="d-flex">
+                                    <div class="team-img float-left mr-3">
+                                        <img src="theme-assets/images/user-12.png" alt="team-profile-1" class="rounded-circle" width="128">
+                                    </div>
+                                    <div class="profile align-self-center">
+                                        <div class="name">Kelvin Nam Nguyen</div>
+                                        <div class="role">@Resources.Resources.Kelvin_Nam_Nguyen_COMPETENCE</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--/ Team -->
+            <!-- Advisors -->
+            <section id="advisor" class="advisor team section-padding">
+                <div class="container">
+                    <div class="heading text-center">
+                        <div>
+                            <h2 class="title">@Resources.Resources.ADVISOR</h2>
+                        </div>
+                        <p class="content-desc text-center">
+                            @Html.Raw(Resources.Resources.Advisor_Title)
+                        </p>
+                    </div>
+                    <div class="team-profile mt-5">
+                        <div class="row mb-5">
+                            <div class="col-sm-12 col-md-6 col-lg-4 mb-5" data-toggle="modal" data-target="#teamUser13">
+                                <div class="d-flex team-member">
+                                    <div class="team-img float-left mr-3">
+                                        <img src="theme-assets/images/user-13.png" alt="team-profile-1" class="rounded-circle" width="128">
+                                    </div>
+                                    <div class="profile align-self-center">
+                                        <div class="name">Ms.RACHEL YEONG</div>
+                                        <div class="role">@Resources.Resources.Rachel_COMPETENCE</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--/ Advisors -->
+            <!-- FAQ -->
+            <section id="faq" class="faq section-padding">
+                <div class="container">
+                    <div class="heading text-center">
+                        <div>
+                            <h2 class="title">@Resources.Resources.TOP_10_REASON</h2>
+                        </div>
+                        @*<p class="content-desc">
+                                @Html.Raw(Resources.Resources.FAQ_Title)
+                            </p>*@
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="general" role="tabpanel" aria-labelledby="general-tab">
+                                    <div id="general-accordion" class="collapse-icon accordion-icon-rotate">
+                                        <div class="card">
+                                            <div class="card-header" id="faqOne">
+                                                <h5 class="mb-0">
+                                                    <a class="btn-link" aria-controls="collapseOne">
+                                                        <div class="faq-item">
+                                                            <span class="border-shape">01</span>
+                                                            <div class="mb-0 white-text font-thin faq-title">
+                                                                @Resources.Resources.REASON_1
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header" id="faqTwo">
+                                                <h5 class="mb-0">
+                                                    <a class="btn-link collapsed" aria-controls="collapseTwo">
+                                                        <div class="faq-item">
+                                                            <span class="border-shape">02</span>
+                                                            <div class="mb-0 white-text font-thin faq-title">
+                                                                @Resources.Resources.REASON_2
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header" id="faqThree">
+                                                <h5 class="mb-0">
+                                                    <a class="btn-link collapsed" aria-controls="collapseThree">
+                                                        <div class="faq-item">
+                                                            <span class="border-shape">03</span>
+                                                            <div class="mb-0 white-text font-thin faq-title">
+                                                                @Resources.Resources.REASON_3
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </h5>
+                                            </div>
+
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header" id="faqFour">
+                                                <h5 class="mb-0">
+                                                    <a class="btn-link collapsed" aria-controls="collapseThree">
+                                                        <div class="faq-item">
+                                                            <span class="border-shape">04</span>
+                                                            <div class="mb-0 white-text font-thin faq-title">
+                                                                @Resources.Resources.REASON_4
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header" id="faqFive">
+                                                <h5 class="mb-0">
+                                                    <a class="btn-link collapsed" aria-controls="collapseThree">
+                                                        <div class="faq-item">
+                                                            <span class="border-shape">05</span>
+                                                            <div class="mb-0 white-text font-thin faq-title">
+                                                                @Resources.Resources.REASON_5
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header" id="faqSix">
+                                                <h5 class="mb-0">
+                                                    <a class="btn-link collapsed" data-toggle="collapse" data-target="#headingSix" aria-expanded="false" aria-controls="collapseThree">
+                                                        <div class="faq-item">
+                                                            <span class="border-shape">06</span>
+                                                            <div class="mb-0 white-text font-thin faq-title">
+                                                                @Resources.Resources.REASON_6
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="headingSix" class="collapse" aria-labelledby="headingThree" data-parent="#general-accordion">
+                                                <div class="card-body">
+                                                    @Resources.Resources.REASON_6_Content
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header" id="faqSeven">
+                                                <h5 class="mb-0">
+                                                    <a class="btn-link collapsed" aria-controls="collapseThree">
+                                                        <div class="faq-item">
+                                                            <span class="border-shape">07</span>
+                                                            <div class="mb-0 white-text font-thin faq-title">
+                                                                @Resources.Resources.REASON_7
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header" id="faqEight">
+                                                <h5 class="mb-0">
+                                                    <a class="btn-link collapsed" data-toggle="collapse" data-target="#headingEight" aria-expanded="false" aria-controls="collapseThree">
+                                                        <div class="faq-item">
+                                                            <span class="border-shape">08</span>
+                                                            <div class="mb-0 white-text font-thin faq-title">
+                                                                @Resources.Resources.REASON_8
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                            <div id="headingEight" class="collapse" aria-labelledby="headingThree" data-parent="#general-accordion">
+                                                <div class="card-body">
+                                                    @Resources.Resources.REASON_8_Content
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header" id="faqNine">
+                                                <h5 class="mb-0">
+                                                    <a class="btn-link collapsed" aria-controls="collapseThree">
+                                                        <div class="faq-item">
+                                                            <span class="border-shape">09</span>
+                                                            <div class="mb-0 white-text font-thin faq-title">
+                                                                @Resources.Resources.REASON_9
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header" id="faqTen">
+                                                <h5 class="mb-0">
+                                                    <a class="btn-link collapsed" aria-controls="collapseTen">
+                                                        <div class="faq-item">
+                                                            <span class="border-shape">10</span>
+                                                            <div class="mb-0 white-text font-thin faq-title">
+                                                                @Resources.Resources.REASON_10
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                @*
+                                    <div class="reason-item reason-item-2">
+                                        <div class="row">
+                                            <div class="col-md-1 col-xs-1 border-shape">
+                                                <p>2</p>
+                                            </div>
+                                            <p class="col-md-10 col-xs-9">@Resources.Resources.REASON_2</p>
+                                        </div>
+                                    </div>
+                                    <div class="reason-item reason-item-3">
+                                        <div class="row">
+                                            <div class="col-md-1 col-xs-1 border-shape">
+                                                <p>3</p>
+                                            </div>
+                                            <p class="col-md-10 col-xs-9">@Resources.Resources.REASON_3</p>
+                                        </div>
+                                    </div>
+                                    <div class="reason-item reason-item-4">
+                                        <div class="row">
+                                            <div class="col-md-1 col-xs-1 border-shape">
+                                                <p>4</p>
+                                            </div>
+                                            <p class="col-md-10 col-xs-9">@Resources.Resources.REASON_4</p>
+                                        </div>
+                                    </div>
+                                    <div class="reason-item reason-item-5">
+                                        <div class="row">
+                                            <div class="col-md-1 col-xs-1 border-shape">
+                                                <p>5</p>
+                                            </div>
+                                            <p class="col-md-10 col-xs-9">@Resources.Resources.REASON_5</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-xs-12">
+                                    <div class="reason-item reason-item-6">
+                                        <div class="row">
+                                            <div class="col-md-1 col-xs-1 border-shape">
+                                                <p>6</p>
+                                            </div>
+                                            <p class="col-md-10 col-xs-9">@Resources.Resources.REASON_6</p>
+                                        </div>
+                                    </div>
+                                    <div class="reason-item reason-item-2">
+                                        <div class="row">
+                                            <div class="col-md-1 col-xs-1 border-shape">
+                                                <p>7</p>
+                                            </div>
+                                            <p class="col-md-10 col-xs-9">@Resources.Resources.REASON_7</p>
+                                        </div>
+                                    </div>
+                                    <div class="reason-item reason-item-3 reason-item-8">
+                                        <div class="row">
+                                            <div class="col-md-1 col-xs-1 border-shape">
+                                                <p>8</p>
+                                            </div>
+                                            <p class="col-md-10 col-xs-9">@Resources.Resources.REASON_8</p>
+                                        </div>
+                                    </div>
+                                    <div class="reason-item reason-item-4 reason-item-9">
+                                        <div class="row">
+                                            <div class="col-md-1 col-xs-1 border-shape">
+                                                <p>9</p>
+                                            </div>
+                                            <p class="col-md-10 col-xs-9">@Resources.Resources.REASON_9</p>
+                                        </div>
+                                    </div>
+                                    <div class="reason-item reason-item-5 reason-item-10">
+                                        <div class="row">
+                                            <div class="col-md-1 col-xs-1 border-shape">
+                                                <p>10</p>
+                                            </div>
+                                            <p class="col-md-10 col-xs-9">@Resources.Resources.REASON_10</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>*@
+            </section>
+            <!--/ FAQ -->
+            <!--News-->
+            <section id="news" class="news section-padding">
+                <div class="container">
+                    <div class="heading text-center">
+                        <div>
+                            <h2 class="title">@Resources.Resources.News</h2>
+                        </div>
+                        <div class="news-content mt-5">
+                            <div class="row mb-5">
+                                <div class="col-sm-12 col-md-6 col-xl-3">
+
+                                    <a href="@linkNews" target="_blank" title="See More">
+                                        <img src="~/theme-assets/images/news-1.png" alt="News One" />
+                                        <div class="news-item">
+                                            <p>The Bcash Card is one of the fastest, easiest way to turn your Bcash and cryptocurrency into local fiat currency.</p>
+                                        </div>
+                                    </a>
+
+
+                                </div>
+                                <div class="col-sm-12 col-md-6 col-xl-3">
+                                    <a href="@linkNews" target="_blank" title="See More">
+                                        <img src="~/theme-assets/images/news-2.png" alt="Alternate Text" />
+                                        <div class="news-item">
+                                            <p>Asia Pacific Ferrari Challenge #Bcash #ferrari #ferrarichallenge.</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-12 col-md-6 col-xl-3">
+                                    <a href="@linkNews" target="_blank" title="See More">
+                                        <img src="~/theme-assets/images/news-3.png" alt="Alternate Text" />
+                                        <div class="news-item">
+                                            <p>Features available in bcashpay. Legal clarity is always the best choice when investing in ICO projects.</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-12 col-md-6 col-xl-3">
+                                    <a href="@linkNews" target="_blank" title="See More">
+                                        <img src="~/theme-assets/images/news-4.png" alt="Alternate Text" />
+                                        <div class="news-item">
+                                            <p>The ecology of BcashPay is very practical in that it targets  a non-cash economy BcashPay had now turned that's it realistic.</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--News end-->
+            @*<!-- Exchange Listing Area -->
+                <section class="exchange-listing" id="exchange-listing">
+                    <div class="container-fluid bg-color">
+                        <div class="container">
+                            <div class="row listing list-unstyled">
+                                <div class="col d-none d-lg-block text-center">
+                                    <img src="theme-assets/images/icon-arrow.png" alt="icon-arrow">
+                                    <p class="mt-1">
+                                        Exchange listing
+                                        <br>to be announced
+                                    </p>
+                                </div>
+                                <div class="col text-center">
+                                    <h2>4.3/5</h2>
+                                    <img src="theme-assets/images/ico-track.png" alt="ico-track">
+                                </div>
+                                <div class="col text-center">
+                                    <h2>4.8/5</h2>
+                                    <img src="theme-assets/images/ico-bench.png" alt="ico-bench">
+                                </div>
+                                <div class="col text-center">
+                                    <h2>3.9/5</h2>
+                                    <img src="theme-assets/images/ico-ranker.png" alt="ico-ranker">
+                                </div>
+                                <div class="col text-center">
+                                    <h2>4.1/5</h2>
+                                    <img src="theme-assets/images/ico-bazaar.png" alt="ico-bazaar">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--/ Exchange Listing Area -->*@
+            <!-- ICO Video Modal -->
+            <div class="modal ico-modal fade" id="ico-modal" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <div class="modal-body p-0">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" id="video"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Dev Team Modal Pop-ups -->
+            <!-- Team user popup - teamUser9 -->
+            <div class="modal team-modal fade" id="teamUser9" tabindex="-1" role="dialog" aria-labelledby="teamUser9Title" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <div class="modal-body">
+                            <div class="row p-4">
+                                <div class="col-12 col-md-5">
+                                    <img class="img-fluid rounded" src="theme-assets/images/user-9-lg.jpg" alt="Logan S. Perez">
+                                </div>
+                                <div class="col-12 col-md-7 mt-sm-3">
+                                    <h5 id="teamUser9Title">Richard Tai</h5>
+                                    <small class="text-muted mb-0">@Resources.Resources.Richard_Tai_COMPETENCE</small>
+                                    @*<div class="social-profile">
+                                            <a href="#" title="Linkedin" class="font-medium grey-accent2 mr-2"><i class="ti-linkedin"></i></a>
+                                            <a href="#" title="Twitter" class="font-medium grey-accent2 mr-2"><i class="ti-twitter-alt"></i></a>
+                                            <a href="#" title="Github" class="font-medium grey-accent2"><i class="ti-github"></i></a>
+                                        </div>*@
+                                    <div class="my-4">
+                                        <p class="text-left">@Resources.Resources.Richard_Tai_CONTENT</p>
+                                        @*<p>I’m focusing on the logic behind the combination of analysis tools, neural networks and genetic algorithms for optimization. Always wanted to have a trading bot with more features but never had the time to build a solution beyond basic python technical analysis tracker.</p>*@
+                                    </div>
+                                    @*<h6 class="mb-0"><small class="text-uppercase">Blockchain</small> <small class="float-right">85%</small></h6>
+                                        <div class="progress box-shadow-1 mb-4">
+                                            <div class="progress-bar progress-orange" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <h6 class="mb-0"><small class="text-uppercase">Python</small> <small class="float-right">90%</small></h6>
+                                        <div class="progress box-shadow-1 mb-4">
+                                            <div class="progress-bar progress-orange" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <h6 class="mb-0"><small class="text-uppercase">C++</small> <small class="float-right">75%</small></h6>
+                                        <div class="progress box-shadow-1 mb-4">
+                                            <div class="progress-bar progress-orange" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>*@
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Team user popup - teamUser6 -->
+            <div class="modal team-modal fade" id="teamUser6" tabindex="-1" role="dialog" aria-labelledby="teamUser6Title" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <div class="modal-body">
+                            <div class="row p-4">
+                                <div class="col-12 col-md-5">
+                                    <img class="img-fluid rounded" src="theme-assets/images/user-6-lg.jpg" alt="Susan J. Newsom">
+                                </div>
+                                <div class="col-12 col-md-7 mt-sm-3">
+                                    <h5 id="teamUser6Title">Airil Chong</h5>
+                                    <small class="text-muted mb-0 ">@Resources.Resources.Airil_Chong_COMPETENCE</small>
+                                    @*<div class="social-profile">
+                                            <a href="#" title="Linkedin" class="font-medium grey-accent2 mr-2"><i class="ti-linkedin"></i></a>
+                                            <a href="#" title="Twitter" class="font-medium grey-accent2 mr-2"><i class="ti-twitter-alt"></i></a>
+                                            <a href="#" title="Github" class="font-medium grey-accent2"><i class="ti-github"></i></a>
+                                        </div>*@
+                                    <div class="my-4">
+                                        <p class="text-left">@Html.Raw(Resources.Resources.Airil_Chong_CONTENT)</p>
+                                        @*<p>I’m focusing on the logic behind the combination of analysis tools, neural networks and genetic algorithms for optimization. Always wanted to have a trading bot with more features but never had the time to build a solution beyond basic python technical analysis tracker.</p>*@
+                                    </div>
+                                    @*<h6 class="mb-0"><small class="text-uppercase">Blockchain</small> <small class="float-right">85%</small></h6>
+                                        <div class="progress box-shadow-1 mb-4">
+                                            <div class="progress-bar progress-orange" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <h6 class="mb-0"><small class="text-uppercase">Python</small> <small class="float-right">90%</small></h6>
+                                        <div class="progress box-shadow-1 mb-4">
+                                            <div class="progress-bar progress-orange" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <h6 class="mb-0"><small class="text-uppercase">C++</small> <small class="float-right">75%</small></h6>
+                                        <div class="progress box-shadow-1 mb-4">
+                                            <div class="progress-bar progress-orange" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>*@
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Team user popup - teamUser2 -->
+            <div class="modal team-modal fade" id="teamUser2" tabindex="-1" role="dialog" aria-labelledby="teamUser2Title" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <div class="modal-body">
+                            <div class="row p-4">
+                                <div class="col-12 col-md-5">
+                                    <img class="img-fluid rounded" src="theme-assets/images/user-2-lg.jpg" alt="Mary J. Wardle">
+                                </div>
+                                <div class="col-12 col-md-7 mt-sm-3">
+                                    <h5 id="teamUser2Title">Dato’ Sri Tiong</h5>
+                                    <small class="text-muted mb-0 ">@Resources.Resources.Dato_Sri_Tiong_COMPETENCE</small>
+                                    @*<div class="social-profile">
+                                            <a href="#" title="Linkedin" class="font-medium grey-accent2 mr-2"><i class="ti-linkedin"></i></a>
+                                            <a href="#" title="Twitter" class="font-medium grey-accent2 mr-2"><i class="ti-twitter-alt"></i></a>
+                                            <a href="#" title="Github" class="font-medium grey-accent2"><i class="ti-github"></i></a>
+                                        </div>*@
+                                    <div class="my-4">
+                                        <p class="text-left">@Html.Raw(Resources.Resources.Dato_Sri_Tiong_CONTENT)</p>
+                                        @*<p>I’m focusing on the logic behind the combination of analysis tools, neural networks and genetic algorithms for optimization. Always wanted to have a trading bot with more features but never had the time to build a solution beyond basic python technical analysis tracker.</p>*@
+                                    </div>
+                                    @*<h6 class="mb-0"><small class="text-uppercase">Blockchain</small> <small class="float-right">85%</small></h6>
+                                        <div class="progress box-shadow-1 mb-4">
+                                            <div class="progress-bar progress-orange" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <h6 class="mb-0"><small class="text-uppercase">Python</small> <small class="float-right">90%</small></h6>
+                                        <div class="progress box-shadow-1 mb-4">
+                                            <div class="progress-bar progress-orange" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <h6 class="mb-0"><small class="text-uppercase">C++</small> <small class="float-right">75%</small></h6>
+                                        <div class="progress box-shadow-1 mb-4">
+                                            <div class="progress-bar progress-orange" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>*@
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Team user popup - teamUser10 -->
+            <div class="modal team-modal fade" id="teamUser10" tabindex="-1" role="dialog" aria-labelledby="teamUser10Title" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <div class="modal-body">
+                            <div class="row p-4">
+                                <div class="col-12 col-md-5">
+                                    <img class="img-fluid rounded" src="theme-assets/images/user-10-lg.jpg" alt="Nicholas M. Sharpe">
+                                </div>
+                                <div class="col-12 col-md-7 mt-sm-3">
+                                    <h5 id="teamUser10Title">Albert New</h5>
+                                    <small class="text-muted mb-0 ">@Resources.Resources.Albert_New_COMPETENCE</small>
+                                    @*<div class="social-profile">
+                                            <a href="#" title="Linkedin" class="font-medium grey-accent2 mr-2"><i class="ti-linkedin"></i></a>
+                                            <a href="#" title="Twitter" class="font-medium grey-accent2 mr-2"><i class="ti-twitter-alt"></i></a>
+                                            <a href="#" title="Github" class="font-medium grey-accent2"><i class="ti-github"></i></a>
+                                        </div>*@
+                                    <div class="my-4">
+                                        <p class="text-left">@Resources.Resources.Albert_New_CONTENT</p>
+                                        @*<p>I’m focusing on the logic behind the combination of analysis tools, neural networks and genetic algorithms for optimization. Always wanted to have a trading bot with more features but never had the time to build a solution beyond basic python technical analysis tracker.</p>*@
+                                    </div>
+                                    @*<h6 class="mb-0"><small class="text-uppercase">Blockchain</small> <small class="float-right">85%</small></h6>
+                                        <div class="progress box-shadow-1 mb-4">
+                                            <div class="progress-bar progress-orange" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <h6 class="mb-0"><small class="text-uppercase">Python</small> <small class="float-right">90%</small></h6>
+                                        <div class="progress box-shadow-1 mb-4">
+                                            <div class="progress-bar progress-orange" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <h6 class="mb-0"><small class="text-uppercase">C++</small> <small class="float-right">75%</small></h6>
+                                        <div class="progress box-shadow-1 mb-4">
+                                            <div class="progress-bar progress-orange" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>*@
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Team user popup - teamUser4 -->
+            <div class="modal team-modal fade" id="teamUser4" tabindex="-1" role="dialog" aria-labelledby="teamUser4Title" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <div class="modal-body">
+                            <div class="row p-4">
+                                <div class="col-12 col-md-5">
+                                    <img class="img-fluid rounded" src="theme-assets/images/user-4-lg.jpg" alt="Cecelia T. Carter">
+                                </div>
+                                <div class="col-12 col-md-7 mt-sm-3">
+                                    <h5 id="teamUser4Title">Jackie Chong</h5>
+                                    <small class="text-muted mb-0 ">@Resources.Resources.Jackie_Chong_COMPETENCE</small>
+                                    @*<div class="social-profile">
+                                            <a href="#" title="Linkedin" class="font-medium grey-accent2 mr-2"><i class="ti-linkedin"></i></a>
+                                            <a href="#" title="Twitter" class="font-medium grey-accent2 mr-2"><i class="ti-twitter-alt"></i></a>
+                                            <a href="#" title="Github" class="font-medium grey-accent2"><i class="ti-github"></i></a>
+                                        </div>*@
+                                    <div class="my-4">
+                                        <p class="text-left">@Resources.Resources.Jackie_Chong_CONTENT</p>
+                                        @*<p>I’m focusing on the logic behind the combination of analysis tools, neural networks and genetic algorithms for optimization. Always wanted to have a trading bot with more features but never had the time to build a solution beyond basic python technical analysis tracker.</p>*@
+                                    </div>
+                                    @*<h6 class="mb-0"><small class="text-uppercase">Blockchain</small> <small class="float-right">85%</small></h6>
+                                        <div class="progress box-shadow-1 mb-4">
+                                            <div class="progress-bar progress-orange" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <h6 class="mb-0"><small class="text-uppercase">Python</small> <small class="float-right">90%</small></h6>
+                                        <div class="progress box-shadow-1 mb-4">
+                                            <div class="progress-bar progress-orange" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <h6 class="mb-0"><small class="text-uppercase">C++</small> <small class="float-right">75%</small></h6>
+                                        <div class="progress box-shadow-1 mb-4">
+                                            <div class="progress-bar progress-orange" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>*@
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Team user popup - teamUser13 -->
+            <div class="modal team-modal fade" id="teamUser13" tabindex="-1" role="dialog" aria-labelledby="teamUser13Title" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <div class="modal-body">
+                            <div class="row p-4">
+                                <div class="col-12 col-md-5">
+                                    <img class="img-fluid rounded" src="theme-assets/images/user-13-lg.jpg" alt="Terry T. Robinette">
+                                </div>
+                                <div class="col-12 col-md-7 mt-sm-3">
+                                    <h5 id="teamUser13Title">Ms.RACHEL YEONG</h5>
+                                    <small class="text-muted mb-0 ">@Resources.Resources.Rachel_COMPETENCE</small>
+                                    @*<div class="social-profile">
+                                            <a href="#" title="Linkedin" class="font-medium grey-accent2 mr-2"><i class="ti-linkedin"></i></a>
+                                            <a href="#" title="Twitter" class="font-medium grey-accent2 mr-2"><i class="ti-twitter-alt"></i></a>
+                                            <a href="#" title="Github" class="font-medium grey-accent2"><i class="ti-github"></i></a>
+                                        </div>*@
+                                    <div class="my-4">
+                                        <p class="text-left">@Html.Raw(Resources.Resources.Rachel_CONTENT)</p>
+                                        @*<p>I’m focusing on the logic behind the combination of analysis tools, neural networks and genetic algorithms for optimization. Always wanted to have a trading bot with more features but never had the time to build a solution beyond basic python technical analysis tracker.</p>*@
+                                    </div>
+                                    @*<h6 class="mb-0"><small class="text-uppercase">Blockchain</small> <small class="float-right">85%</small></h6>
+                                        <div class="progress box-shadow-1 mb-4">
+                                            <div class="progress-bar progress-orange" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <h6 class="mb-0"><small class="text-uppercase">Python</small> <small class="float-right">90%</small></h6>
+                                        <div class="progress box-shadow-1 mb-4">
+                                            <div class="progress-bar progress-orange" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <h6 class="mb-0"><small class="text-uppercase">C++</small> <small class="float-right">75%</small></h6>
+                                        <div class="progress box-shadow-1 mb-4">
+                                            <div class="progress-bar progress-orange" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>*@
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Team user popup - teamUser5 -->
+            <div class="modal team-modal fade" id="teamUser5" tabindex="-1" role="dialog" aria-labelledby="teamUser5Title" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <div class="modal-body">
+                            <div class="row p-4">
+                                <div class="col-12 col-md-5">
+                                    <img class="img-fluid rounded" src="theme-assets/images/user-5-lg.jpg" alt="Terry T. Robinette">
+                                </div>
+                                <div class="col-12 col-md-7 mt-sm-3">
+                                    <h5 id="teamUser5Title">HazlyHussien</h5>
+                                    <small class="text-muted mb-0 ">@Resources.Resources.HazlyHussien_COMPETENCE</small>
+                                    @*<div class="social-profile">
+                                            <a href="#" title="Linkedin" class="font-medium grey-accent2 mr-2"><i class="ti-linkedin"></i></a>
+                                            <a href="#" title="Twitter" class="font-medium grey-accent2 mr-2"><i class="ti-twitter-alt"></i></a>
+                                            <a href="#" title="Github" class="font-medium grey-accent2"><i class="ti-github"></i></a>
+                                        </div>*@
+                                    <div class="my-4">
+                                        <p class="text-left">@Resources.Resources.HazlyHussien_CONTENT</p>
+                                        @*<p>I’m focusing on the logic behind the combination of analysis tools, neural networks and genetic algorithms for optimization. Always wanted to have a trading bot with more features but never had the time to build a solution beyond basic python technical analysis tracker.</p>*@
+                                    </div>
+                                    @*<h6 class="mb-0"><small class="text-uppercase">Blockchain</small> <small class="float-right">85%</small></h6>
+                                        <div class="progress box-shadow-1 mb-4">
+                                            <div class="progress-bar progress-orange" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <h6 class="mb-0"><small class="text-uppercase">Python</small> <small class="float-right">90%</small></h6>
+                                        <div class="progress box-shadow-1 mb-4">
+                                            <div class="progress-bar progress-orange" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <h6 class="mb-0"><small class="text-uppercase">C++</small> <small class="float-right">75%</small></h6>
+                                        <div class="progress box-shadow-1 mb-4">
+                                            <div class="progress-bar progress-orange" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>*@
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Advisors Team Modal Pop-ups -->
+            <!-- Team user popup - teamUser1 -->
+            <div class="modal team-modal fade" id="teamUser1" tabindex="-1" role="dialog" aria-labelledby="teamUser1Title" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <div class="modal-body">
+                            <div class="row p-4">
+                                <div class="col-12 col-md-5">
+                                    <img class="img-fluid rounded" src="theme-assets/images/user-1-lg.jpg" alt="Gapslee">
+                                </div>
+                                <div class="col-12 col-md-7 mt-sm-3">
+                                    <h5 id="teamUser1Title">Gapslee</h5>
+                                    <small class="text-muted mb-0 ">@Resources.Resources.Gapslee_COMPETENCE</small>
+                                    @*<div class="social-profile">
+                                            <a href="#" title="Linkedin" class="font-medium grey-accent2 mr-2"><i class="ti-linkedin"></i></a>
+                                            <a href="#" title="Twitter" class="font-medium grey-accent2 mr-2"><i class="ti-twitter-alt"></i></a>
+                                            <a href="#" title="Github" class="font-medium grey-accent2"><i class="ti-github"></i></a>
+                                        </div>*@
+                                    <div class="my-4">
+                                        <p class="text-left">@Resources.Resources.Gapslee_CONTENT</p>
+                                        @*<p>I’m focusing on the logic behind the combination of analysis tools, neural networks and genetic algorithms for optimization. Always wanted to have a trading bot with more features but never had the time to build a solution beyond basic python technical analysis tracker.</p>*@
+                                    </div>
+                                    @*<h6 class="mb-0"><small class="text-uppercase">Blockchain</small> <small class="float-right">85%</small></h6>
+                                        <div class="progress box-shadow-1 mb-4">
+                                            <div class="progress-bar progress-orange" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <h6 class="mb-0"><small class="text-uppercase">Python</small> <small class="float-right">90%</small></h6>
+                                        <div class="progress box-shadow-1 mb-4">
+                                            <div class="progress-bar progress-orange" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <h6 class="mb-0"><small class="text-uppercase">C++</small> <small class="float-right">75%</small></h6>
+                                        <div class="progress box-shadow-1 mb-4">
+                                            <div class="progress-bar progress-orange" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>*@
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Team user popup - teamUser8 -->
+            <div class="modal team-modal fade" id="teamUser8" tabindex="-1" role="dialog" aria-labelledby="teamUser8Title" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <div class="modal-body">
+                            <div class="row p-4">
+                                <div class="col-12 col-md-5">
+                                    <img class="img-fluid rounded" src="theme-assets/images/user-8-lg.jpg" alt="Pavel Volek">
+                                </div>
+                                <div class="col-12 col-md-7 mt-sm-3">
+                                    <h5 id="teamUser8Title">Tengku Idzham Tengku Kamarudin</h5>
+                                    <small class="text-muted mb-0 ">@Resources.Resources.Tengku_Idzham_Tengku_Kamarudin_COMPETENCE</small>
+                                    @*<div class="social-profile">
+                                            <a href="#" title="Linkedin" class="font-medium grey-accent2 mr-2"><i class="ti-linkedin"></i></a>
+                                            <a href="#" title="Twitter" class="font-medium grey-accent2 mr-2"><i class="ti-twitter-alt"></i></a>
+                                            <a href="#" title="Github" class="font-medium grey-accent2"><i class="ti-github"></i></a>
+                                        </div>*@
+                                    <div class="my-4">
+                                        <p class="text-left">@Html.Raw(Resources.Resources.Tengku_Idzham_Tengku_Kamarudin_CONTENT)</p>
+                                        @*<p>I’m focusing on the logic behind the combination of analysis tools, neural networks and genetic algorithms for optimization. Always wanted to have a trading bot with more features but never had the time to build a solution beyond basic python technical analysis tracker.</p>*@
+                                    </div>
+                                    @*<h6 class="mb-0"><small class="text-uppercase">Blockchain</small> <small class="float-right">85%</small></h6>
+                                        <div class="progress box-shadow-1 mb-4">
+                                            <div class="progress-bar progress-orange" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <h6 class="mb-0"><small class="text-uppercase">Python</small> <small class="float-right">90%</small></h6>
+                                        <div class="progress box-shadow-1 mb-4">
+                                            <div class="progress-bar progress-orange" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <h6 class="mb-0"><small class="text-uppercase">C++</small> <small class="float-right">75%</small></h6>
+                                        <div class="progress box-shadow-1 mb-4">
+                                            <div class="progress-bar progress-orange" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>*@
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Team user popup - teamUser3 -->
+            <div class="modal team-modal fade" id="teamUser3" tabindex="-1" role="dialog" aria-labelledby="teamUser3Title" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <div class="modal-body">
+                            <div class="row p-4">
+                                <div class="col-12 col-md-5">
+                                    <img class="img-fluid rounded" src="theme-assets/images/user-3-lg.jpg" alt="Alyona Blakytna">
+                                </div>
+                                <div class="col-12 col-md-7 mt-sm-3">
+                                    <h5 id="teamUser3Title">Tommy Cao</h5>
+                                    <small class="text-muted mb-0 ">@Resources.Resources.Tommy_Cao_COMPETENCE</small>
+                                    @*<div class="social-profile">
+                                            <a href="#" title="Linkedin" class="font-medium grey-accent2 mr-2"><i class="ti-linkedin"></i></a>
+                                            <a href="#" title="Twitter" class="font-medium grey-accent2 mr-2"><i class="ti-twitter-alt"></i></a>
+                                            <a href="#" title="Github" class="font-medium grey-accent2"><i class="ti-github"></i></a>
+                                        </div>*@
+                                    <div class="my-4">
+                                        <p class="text-left">@Resources.Resources.Tommy_Cao_CONTENT</p>
+                                        @*<p>I’m focusing on the logic behind the combination of analysis tools, neural networks and genetic algorithms for optimization. Always wanted to have a trading bot with more features but never had the time to build a solution beyond basic python technical analysis tracker.</p>*@
+                                    </div>
+                                    @*<h6 class="mb-0"><small class="text-uppercase">Blockchain</small> <small class="float-right">85%</small></h6>
+                                        <div class="progress box-shadow-1 mb-4">
+                                            <div class="progress-bar progress-orange" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <h6 class="mb-0"><small class="text-uppercase">Python</small> <small class="float-right">90%</small></h6>
+                                        <div class="progress box-shadow-1 mb-4">
+                                            <div class="progress-bar progress-orange" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <h6 class="mb-0"><small class="text-uppercase">C++</small> <small class="float-right">75%</small></h6>
+                                        <div class="progress box-shadow-1 mb-4">
+                                            <div class="progress-bar progress-orange" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>*@
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Team user popup - teamUser11 -->
+            <div class="modal team-modal fade" id="teamUser11" tabindex="-1" role="dialog" aria-labelledby="teamUser11Title" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <div class="modal-body">
+                            <div class="row p-4">
+                                <div class="col-12 col-md-5">
+                                    <img class="img-fluid rounded" src="theme-assets/images/user-11-lg.jpg" alt="Martin Solarik">
+                                </div>
+                                <div class="col-12 col-md-7 mt-sm-3">
+                                    <h5 id="teamUser11Title">Max Lim</h5>
+                                    <small class="text-muted mb-0 ">@Resources.Resources.Max_Lim_COMPETENCE</small>
+                                    @*<div class="social-profile">
+                                            <a href="#" title="Linkedin" class="font-medium grey-accent2 mr-2"><i class="ti-linkedin"></i></a>
+                                            <a href="#" title="Twitter" class="font-medium grey-accent2 mr-2"><i class="ti-twitter-alt"></i></a>
+                                            <a href="#" title="Github" class="font-medium grey-accent2"><i class="ti-github"></i></a>
+                                        </div>*@
+                                    <div class="my-4">
+                                        <p class="text-left">@Resources.Resources.Max_Lim_CONTENT</p>
+                                        @*<p>I’m focusing on the logic behind the combination of analysis tools, neural networks and genetic algorithms for optimization. Always wanted to have a trading bot with more features but never had the time to build a solution beyond basic python technical analysis tracker.</p>*@
+                                    </div>
+                                    @*<h6 class="mb-0"><small class="text-uppercase">Blockchain</small> <small class="float-right">85%</small></h6>
+                                        <div class="progress box-shadow-1 mb-4">
+                                            <div class="progress-bar progress-orange" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <h6 class="mb-0"><small class="text-uppercase">Python</small> <small class="float-right">90%</small></h6>
+                                        <div class="progress box-shadow-1 mb-4">
+                                            <div class="progress-bar progress-orange" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <h6 class="mb-0"><small class="text-uppercase">C++</small> <small class="float-right">75%</small></h6>
+                                        <div class="progress box-shadow-1 mb-4">
+                                            <div class="progress-bar progress-orange" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>*@
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Team user popup - teamUser7 -->
+            <div class="modal team-modal fade" id="teamUser7" tabindex="-1" role="dialog" aria-labelledby="teamUser7Title" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <div class="modal-body">
+                            <div class="row p-4">
+                                <div class="col-12 col-md-5">
+                                    <img class="img-fluid rounded" src="theme-assets/images/user-7-lg.jpg" alt="Kate Fisenko">
+                                </div>
+                                <div class="col-12 col-md-7 mt-sm-3">
+                                    <h5 id="teamUser7Title">Dato’ Sri Zamry</h5>
+                                    <small class="text-muted mb-0 ">@Resources.Resources.Dato_Sri_Zamry_COMPETENCE</small>
+                                    @*<div class="social-profile">
+                                            <a href="#" title="Linkedin" class="font-medium grey-accent2 mr-2"><i class="ti-linkedin"></i></a>
+                                            <a href="#" title="Twitter" class="font-medium grey-accent2 mr-2"><i class="ti-twitter-alt"></i></a>
+                                            <a href="#" title="Github" class="font-medium grey-accent2"><i class="ti-github"></i></a>
+                                        </div>*@
+                                    <div class="my-4">
+                                        <p class="text-left">@Html.Raw(Resources.Resources.Dato_Sri_Zamry_CONTENT)</p>
+                                        @*<p>I’m focusing on the logic behind the combination of analysis tools, neural networks and genetic algorithms for optimization. Always wanted to have a trading bot with more features but never had the time to build a solution beyond basic python technical analysis tracker.</p>*@
+                                    </div>
+                                    @*<h6 class="mb-0"><small class="text-uppercase">Blockchain</small> <small class="float-right">85%</small></h6>
+                                        <div class="progress box-shadow-1 mb-4">
+                                            <div class="progress-bar progress-orange" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <h6 class="mb-0"><small class="text-uppercase">Python</small> <small class="float-right">90%</small></h6>
+                                        <div class="progress box-shadow-1 mb-4">
+                                            <div class="progress-bar progress-orange" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <h6 class="mb-0"><small class="text-uppercase">C++</small> <small class="float-right">75%</small></h6>
+                                        <div class="progress box-shadow-1 mb-4">
+                                            <div class="progress-bar progress-orange" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>*@
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Team user popup - teamUser12 -->
+            <div class="modal team-modal fade" id="teamUser12" tabindex="-1" role="dialog" aria-labelledby="teamUser12Title" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <div class="modal-body">
+                            <div class="row p-4">
+                                <div class="col-12 col-md-5">
+                                    <img class="img-fluid rounded" src="theme-assets/images/user-12-lg.jpg" alt="Michal Krajnansky">
+                                </div>
+                                <div class="col-12 col-md-7 mt-sm-3">
+                                    <h5 id="teamUser12Title">Kelvin Nam Nguyen</h5>
+                                    <small class="text-muted mb-0 ">@Resources.Resources.Kelvin_Nam_Nguyen_COMPETENCE</small>
+                                    @*<div class="social-profile">
+                                            <a href="#" title="Linkedin" class="font-medium grey-accent2 mr-2"><i class="ti-linkedin"></i></a>
+                                            <a href="#" title="Twitter" class="font-medium grey-accent2 mr-2"><i class="ti-twitter-alt"></i></a>
+                                            <a href="#" title="Github" class="font-medium grey-accent2"><i class="ti-github"></i></a>
+                                        </div>*@
+                                    <div class="my-4">
+                                        <p class="text-left">@Html.Raw(Resources.Resources.Kelvin_Nam_Nguyen_CONTENT)</p>
+                                        @*<p>I’m focusing on the logic behind the combination of analysis tools, neural networks and genetic algorithms for optimization. Always wanted to have a trading bot with more features but never had the time to build a solution beyond basic python technical analysis tracker.</p>*@
+                                    </div>
+                                    @*<h6 class="mb-0"><small class="text-uppercase">Blockchain</small> <small class="float-right">85%</small></h6>
+                                        <div class="progress box-shadow-1 mb-4">
+                                            <div class="progress-bar progress-orange" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <h6 class="mb-0"><small class="text-uppercase">Python</small> <small class="float-right">90%</small></h6>
+                                        <div class="progress box-shadow-1 mb-4">
+                                            <div class="progress-bar progress-orange" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <h6 class="mb-0"><small class="text-uppercase">C++</small> <small class="float-right">75%</small></h6>
+                                        <div class="progress box-shadow-1 mb-4">
+                                            <div class="progress-bar progress-orange" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>*@
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+
+<!--SCRIPT-->
+@section scripts{
+    <script>
+    var icoInfo = @Html.Raw(Json.Encode(@Model));
+    var serverTime = new Date(parseInt(icoInfo.Today.substr(6)));
+    var Days = 0, Hours = 0, Minutes = 0, Seconds = 0;
+    function countdown() {
+        //Get 1 day in milliseconds
+        var one_day = 1000 * 60 * 60 * 24;
+        serverTime.setSeconds(serverTime.getSeconds() + 1);
+        var date1 = serverTime;
+        var date2 = new Date(parseInt(icoInfo.EndICODate.substr(6))); //new Date(icoInfo.ICODate);
+        // Convert both dates to milliseconds
+        var date1_ms = date1.getTime();
+        var date2_ms = date2.getTime();
+        var difference_ms = date2_ms - date1_ms;
+        difference_ms = difference_ms / 1000;
+        Seconds = Math.floor(difference_ms % 60);
+        difference_ms = difference_ms / 60;
+        Minutes = Math.floor(difference_ms % 60);
+        difference_ms = difference_ms / 60;
+        Hours = Math.floor(difference_ms % 24);
+        Days = Math.floor(difference_ms / 24);
+        if (Days < 0) return;
+        if (Days < 10)
+            document.getElementById("countdowndays").innerHTML = "0" + Days;
+        else
+            document.getElementById("countdowndays").innerHTML = Days;
+        if (Hours < 10)
+            document.getElementById("countdownhours").innerHTML = "0" + Hours;
+        else
+            document.getElementById("countdownhours").innerHTML = Hours;
+        if (Minutes < 10)
+            document.getElementById("countdownminutes").innerHTML = "0" + Minutes;
+        else
+            document.getElementById("countdownminutes").innerHTML = Minutes;
+        if (Seconds < 10)
+            document.getElementById("countdownseconds").innerHTML = "0" + Seconds;
+        else
+            document.getElementById("countdownseconds").innerHTML = Seconds;
+
+    }
+    </script>
+}
+
+<!--EDN SCRIPT-->

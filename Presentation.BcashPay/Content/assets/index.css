@@ -1,0 +1,1734 @@
+﻿/*body*/
+
+p {
+    font-size: 0.938rem;
+    text-align:justify;
+    color: #fff;
+}
+.token-sale ul.token-sale-info li:before {
+    font-size: 12px;
+    margin-top: 2px;
+}
+/*header*/
+#head-area .head-content{
+    height:85vh;
+}
+#head-area ul.token-sale-info li:before {
+    color: #FFFFFF;
+    content: '\e64d';
+    font-family: 'themify';
+    margin-left: 25px;
+    position: absolute;
+    left: -3px;
+    font-size: 1.125rem;
+}
+/*header-end*/
+/*about*/
+#about{
+    padding-top:1rem;
+}
+#about .heading {
+    margin-bottom: 2rem;
+}
+#about .heading .content-desc {
+    margin-top: 5px;
+}
+#about .heading .content-area {
+    margin-top: 50px;
+}
+#about .heading .content-area .What-BCASH-content {
+    color: white !important;
+}
+#about .content-area .play-video {
+    top: 90%;
+}
+/*about-end*/
+/*strategy-partners
+#basicSlider {
+    position: relative;
+}
+
+#basicSlider .MS-content {
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0 2%;
+    height: auto;
+}
+
+#basicSlider .MS-content .item {
+    display: inline-block;
+    width: 23%;
+    position: relative;
+    vertical-align: top;
+    overflow: hidden;
+    height: 100%;
+    white-space: normal;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+#basicSlider .MS-content .item a {
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+#basicSlider .MS-content .item a img {
+    display: block;
+    margin: 0 auto;
+}
+
+#basicSlider .MS-controls button {
+    position: absolute;
+}
+
+#basicSlider .MS-controls .MS-left {
+    top: 35px;
+    left: 10px;
+}
+
+#basicSlider .MS-controls .MS-right {
+    top: 35px;
+    right: 10px;
+}
+strategy partners end*/
+/*BCASH's-key-claim*/
+#key-claim{
+    margin-top: -100px; 
+}
+#key-claim img.logo-header {
+    height: 35px;
+}
+#key-claim b{
+ color: #fff !important;
+}
+#key-claim p{
+    text-align:justify;
+}
+#key-claim .bcore, 
+#key-claim .bcash-pay {
+    margin-top: 10px;
+}
+#key-claim .bcash-atm,
+#key-claim .bcash-merchant, 
+#key-claim .bcash-coin{
+    margin-top:25px;
+}
+#key-claim .bcash-pay p {
+    margin-bottom: 10px;
+}
+#key-claim .bcash-pay ul.token-sale-info,
+#key-claim .bcash-merchant ul.token-sale-info{
+    padding-left: 50px;
+}
+#key-claim .bcash-pay ul.token-sale-info li,
+#key-claim .bcash-merchant ul.token-sale-info li {
+    color: #fff;
+}
+#key-claim .bcash-pay ul.token-sale-info li:before,
+#key-claim .bcash-merchant ul.token-sale-info li:before {
+    font-size: 12px;
+    margin-left: 40px;
+    margin-top: 2px;
+    color: #FFFFFF;
+    content: '\e65d';
+    font-family: 'themify';
+    position: absolute;
+    left: -3px;
+}
+#key-claim .bcash-pay img.problems-img {
+    width: 100%;
+    margin-top: 100px;
+}
+
+#key-claim .bcash-card img.problems-img {
+    width: 320px;
+    height: 280px;
+    margin-left: 100px;
+}
+
+#key-claim .bcash-atm img.problems-img {
+    height: 300px;
+    margin-left: 150px;
+}
+/*key-claim end*/
+/*whitepaper*/
+#whitepaper{
+    padding-top:50px;
+    padding-bottom:30px;
+}
+#whitepaper ul {
+    list-style-type: none;
+    margin-top: 25px;
+    padding: 0;
+    margin-bottom: 25px;
+    text-align:center;
+}
+
+#whitepaper li {
+    display: inline;
+    padding: 0 20px;
+}
+
+#whitepaper li a {
+    color: #fff;
+}
+
+#whitepaper ul:last-child li {
+    margin: 0;
+    width: 12%;
+    font-size: 45px;
+}
+#whitepaper .heading{
+    margin-bottom:0px;
+}
+/*Social*/
+#whitepaper .social:last-child li a i {
+    transition: 0.5s;
+}
+
+#whitepaper .social li a .fa.fa-telegram {
+    color: #45bbff;
+}
+
+#whitepaper .social li a .fa.fa-facebook {
+    color: #4267B2;
+}
+
+#whitepaper .social li a .fa.fa-medium {
+    color: #00b489;
+}
+
+#whitepaper .social li a .fa.fa-github {
+    color: #430297;
+}
+
+#whitepaper .social li a .fa.fa-twitter {
+    color: #55ACEE;
+}
+
+#whitepaper .social li a .fa.fa-reddit-alien {
+    color: #ff4500;
+}
+
+#whitepaper .social li a .fa.fa-youtube-play {
+    color: #cc181e;
+}
+
+#whitepaper .social li a .fa.fa-instagram {
+    color: #e56969;
+}
+
+#whitepaper .social li a i:hover {
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+}
+/*whitepaper-end*/
+
+/*token sale*/
+#token-sale-mobile-app {
+    padding-top: 0;
+}
+#token-sale-mobile-app ul.token-sale-info li{
+    color: #fff;
+}
+.token-details {
+    height: 370px;
+}
+
+.clock ul {
+    list-style-type: none;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 0;
+}
+
+.clock ul li {
+    display: inline-grid;
+}
+
+.clock ul li .retangleBlack {
+    width: 80px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 10%;
+}
+
+.clock ul li .retangleBlack h1 {
+    margin: 0;
+    text-align: center;
+}
+
+.clock ul li .retangleBlack p {
+    margin: 0;
+    text-align: center;
+    margin-top: 15px;
+    color: #efb706;
+}
+
+.phase-time ul.token-sale-info {
+    padding-top: 3px;
+    padding-left: 50px;
+}
+
+.phase-time ul.token-sale-info li:before {
+    font-size: 12px;
+    margin-right: 0;
+    margin-left: 40px;
+    margin-top: 2px;
+}
+
+#mobile-app {
+    padding-top: 50px;
+}
+.token-details .progress-top li:nth-child(3) {
+    position: relative;
+    left: 35px;
+}
+
+.token-details .progress-top li:nth-child(5) {
+    position: relative;
+    left: 25px;
+}
+.token-details .progress-top li:nth-child(8) {
+    position: relative;
+    left: 30px;
+}
+.token-sale .heading{
+    margin-bottom:35px;
+}
+/*token sale end*/
+/*Crypto ico App*/
+.mobile-app mobile-app-content .btn {
+    padding: 0.5rem 1rem !important;
+}
+#token-sale-mobile-app .mobile-app-content {
+    text-align: center;
+}
+.mobile-app .mobile-button span {
+    padding-right: 5px;
+}
+
+.btn-gradient-orange:hover .fa.fa-android {
+    color: #A4C639;
+}
+
+.btn-gradient-orange:hover .fa.fa-apple {
+    color: #bdc3c7;
+}
+
+.btn-gradient-orange:hover .fa.fa-windows {
+    color: #3498db;
+}
+
+.btn-gradient-orange:hover .fa.fa-apple.macos {
+    color: #2c3e50;
+}
+
+.btn-gradient-orange:hover .fa.fa-linux {
+    color: #337ab7;
+}
+/*Crypto ico App end*/
+/*Roadmap*/
+#roadmap {
+    padding-top: 0;
+    padding-bottom: 30px;
+}
+
+.road-map {
+    height: 300px;
+    position: relative;
+}
+
+.icon {
+    display: inline-block;
+    background-image: url("../../theme-assets/images/iconlight.png");
+    background-repeat: no-repeat;
+}
+
+.bx-wrapper {
+    border: none;
+    background: none;
+    box-shadow: none;
+}
+
+.bx-viewport {
+    height: 300px !important;
+}
+
+.icon-light {
+    width: 150px;
+    height: 50px;
+    background-position: -180px -80px;
+}
+
+.pa {
+    position: absolute;
+}
+
+.z15 {
+    z-index: 15;
+}
+
+.road-map .item {
+    position: relative;
+}
+
+.plr30 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.h50 {
+    height: 50px;
+}
+
+.icon-roadmap {
+    width: 30px;
+    height: 34px;
+    background-position: -600px 0px;
+}
+
+.yellow {
+    color: #efb706;
+}
+
+.white {
+    color: #fff;
+}
+
+.gray {
+    color: #b9b9ba;
+}
+
+.f14 {
+    font-size: 14px;
+}
+
+.fb {
+    font-weight: bold;
+}
+
+.lh1x2 {
+    line-height: 1.2;
+}
+
+.ptb15 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.pt35 {
+    padding-top: 35px;
+}
+
+.icon-logo3 {
+    width: 57px;
+    height: 41px;
+    background-position: -180px 0px;
+}
+.road-map .date:before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-radius: 12px;
+    /*background: -webkit-linear-gradient(45deg, #29BEFF, #1C76FE);
+    background: -moz-linear-gradient(45deg, #29BEFF, #1C76FE);
+    background: -o-linear-gradient(45deg, #29BEFF, #1C76FE);
+    background: linear-gradient(45deg, #29BEFF, #1C76FE);*/
+    border: none;
+    position: absolute;
+    top: -7px;
+    -webkit-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+}
+
+/*.road-map .date:after {
+    content: '';
+    width: 11px;
+    height: 11px;
+    background-color: white;
+    border-radius: 25px;
+    position: absolute;
+    top: -7px;
+    left: 3%;
+    -webkit-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+}*/
+
+.roadmap .item.active .date:before {
+    content: ' ';
+    background: -webkit-linear-gradient(45deg, #ffd633, #efb706);
+    background: -moz-linear-gradient(45deg, #ffd633, #efb706);
+    background: -o-linear-gradient(45deg, #ffd633, #efb706);
+    background: linear-gradient(45deg, #ffd633, #efb706);
+    border: none;
+    -webkit-box-shadow: 0 0 10px 0 #BF68E6;
+    box-shadow: 0 0 10px 0 #BF68E6;
+}
+
+/*.roadmap .item.active .date:after {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 3%;
+    background: #FFFFFF;
+    border: 6px solid #FFFFFF;
+    border-radius: 50%;
+}*/
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5), (min-resolution: 192dpi) {
+    .icon {
+        background: url("../../theme-assets/images/iconlight.png") center center no-repeat;
+        background-size: 100px;
+    }
+}
+/*Roadmap end*/
+/*token-distribution*/
+#token-distribution {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+/*token-distribution end*/
+/*teams & advisors*/
+#team, #advisor, #faq, #news {
+    padding-top: 30px;
+    padding-bottom: 0;
+}
+/*teams & advisors end*/
+/*10 reason*/
+#token-sale-mobile-app .token-sale:before{
+    width:535px;
+}
+.faq-item {
+    width: 1000px;
+}
+.faq-title{
+    width: 980px;
+    padding-left: 55px;
+    margin-top:-30px;
+}
+.faq .card h5 {
+    font-size: 15px;
+    margin-left: -40px;
+}
+.faq-content .accordion p,
+.faq-content .accordion i {
+    color: #000;
+}
+
+.faq-content .accordion i {
+    font-size: 30px;
+}
+
+.border-shape {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    color: #fff;
+    padding: 10px;
+    background-color: #efb706;
+    border-radius: 50%;
+}
+/*10 reason end*/
+/*news*/
+.news h3.news-title {
+    text-align: left;
+    font-size: 18px;
+    color: #efb706;
+}
+.news .news-item{
+    margin-top: 20px;
+}
+.news p {
+    text-align: left;
+    font-size: 14px;
+}
+/*news end*/
+/*footer*/
+.footer{
+    margin-top:50px;
+    padding-top:100px;
+}
+.footer .footer-wrapper .title{
+    margin-bottom:30px;
+}
+.footer .footer-wrapper .useful-title {
+    margin-top: 20px;
+}
+.footer .footer-wrapper .tweets{
+    margin-top:80px;
+}
+.footer .footer-wrapper .feed span{
+    margin-bottom: 0;
+}
+.footer .about .about-text p.grey-accent2 {
+    margin-bottom: 5px;
+    text-align: left
+}
+.footer .footer-wrapper ul.social-buttons li a:hover {
+    color: #efb706;
+}
+    /*footer end*/
+    /*-------RESPONSIVE--------*/
+@media (max-width: 1025px) {
+    ul{font-size:14px;}
+    /*header*/
+    #head-area .head-content {
+        height: 40vh;
+    }
+    .head-area .btn {
+        padding: 1rem 1.5rem 1rem 1.5rem;
+    }
+    /*header end*/
+    #key-claim .bcore iframe {
+        width: 400px;
+       height : 290px;
+    }
+    /*strategy partner*/
+    #basicSlider .MS-content .item {
+        width: 50%;
+    }
+    /*strategy partner end*/
+    /*BCASH's Key claim
+    .bcore iframe{
+        width:400px;
+        height:250px;
+    }
+    .bcash-merchant img{
+        width: 330px;
+    }
+    BCASH's Key claim end*/
+    /*token-sale-mobile-app*/
+    .phase-time ul.token-sale-info {
+        padding-left: 40px;
+    }
+    .phase-time ul.token-sale-info li:before {
+        margin-left: 30px;
+        margin-top: 2px;
+    }
+    /*token-sale-mobile-app-end*/
+    /*Whitepaper*/
+    #whitepaper li{
+        padding: 0 15px;
+    }
+    /*Whitepaper end*/
+    /*team-advisors*/
+    .team .profile .name,
+    .advisor .profile .name {
+        font-size: 15px;
+    }
+    .team .profile .role{
+        font-size:12px;
+    }
+    /*team-advisors-end*/
+    /*faq*/
+    .faq .tab-content .card .card-header .btn-link {
+        font-size: 15px;
+        width: 0px;
+        padding: 0;
+        margin-right: 2rem;
+    }
+
+    .faq-item {
+        margin-right: 25px;
+        width: 128px;
+    }
+
+    .faq-title {
+        width: 810px;
+        margin-top: -18px
+    }
+    /*faq-end*/
+    .news p {
+        text-align: center;
+    }
+}
+@media (max-width: 824px) {
+    #head-area .head-content {
+        height: 200vh;
+    }
+    /*BCASH's-key-claim*/
+    #key-claim {
+        margin-top: 0;
+    }
+
+    #key-claim .bcash-eplatform img.logo-header,
+    #key-claim .bcore img.logo-header,
+    #key-claim .bcash-pay img.logo-header,
+    #key-claim .bcash-card img.logo-header,
+    #key-claim .bcash-atm img.logo-header,
+    #key-claim .bcash-merchant img.logo-header,
+    #key-claim .bcash-coin img.logo-header {
+        height: 28px;
+    }
+
+    #key-claim .bcash-eplatform hr,
+    #key-claim .bcore hr,
+    #key-claim .bcash-pay hr,
+    #key-claim .bcash-card hr,
+    #key-claim .bcash-atm hr,
+    #key-claim .bcash-merchant hr,
+    #key-claim .bcash-coin hr {
+        border-top: none;
+    }
+
+    #key-claim .bcash-eplatform .eplatform,
+    #key-claim .bcash-card .card-img,
+    #key-claim .bcash-atm .atm,
+    #key-claim .bcash-merchant .merchant,
+    #key-claim .bcash-coin .coin,
+    #key-claim .bcash-pay .mobile,
+    #key-claim .bcore .core{
+        text-align: center;
+    }
+    #key-claim .bcash-pay img.problems-img,
+    #key-claim .bcash-merchant .merchant .problems-img,
+    #key-claim .bcash-coin .coin .problems-img{
+        width: 300px;
+    }
+    #key-claim .bcore,
+    #key-claim .bcash-card {
+        margin-top: 40px;
+    }
+
+    #key-claim .bcore iframe {
+        height: 200px;
+        width: 315px;
+    }
+
+    #key-claim .bcore .core-content,
+    #key-claim .bcash-card .card-content,
+    #key-claim .bcash-merchant .merchant-content {
+        margin-top: 20px;
+    }
+
+    #key-claim .bcash-pay img {
+        margin-top: 40px;
+    }
+    #key-claim .bcash-eplatform .eplatform img {
+        width: 200px;
+    }
+    #key-claim .bcash-card .card-img img {
+        margin-left: 0;
+        width: 250px;
+        height: 200px;
+    }
+
+    #key-claim .bcash-atm .atm img {
+        margin-left: 0;
+    }
+
+    #key-claim .bcash-merchant {
+        margin-top: 80px;
+    }
+    /*BCASH's-key-claim-end*/
+    #token-sale-mobile-app .mobile-app {
+        padding-top: 0;
+        margin-top: 0 !important;
+    }
+
+    #token-sale-mobile-app .mobile-app-content {
+        text-align: left;
+    }
+
+        #token-sale-mobile-app .mobile-app-content a {
+            width: 135px;
+            margin: 5px 5px;
+            font-size: 15px;
+        }
+    /*faq*/
+    .faq .tab-content .card .card-header .btn-link {
+        font-size: 15px;
+        width: 0px;
+        padding: 0;
+        margin-right: 2rem;
+    }
+
+    .faq-item {
+        margin-right: 25px;
+        width: 128px;
+    }
+
+    .faq-title {
+        width: 420px;
+        margin-top: -30px;
+    }
+    /*faq-end*/
+} 
+@media (max-width: 769px) {
+#head-area .head-content {
+    height: 110vh;
+}
+
+#head-area .head-content .mainnet-text {
+    width: 150px;
+    height: 50px;
+}
+
+#head-area .banner-wrapper ul.token-sale-info {
+    margin-bottom: 0;
+}
+/*BCASH's-key-claim*/
+#key-claim {
+    margin-top: 0;
+}
+
+#key-claim .bcash-eplatform img.logo-header,
+#key-claim .bcore img.logo-header,
+#key-claim .bcash-pay img.logo-header,
+#key-claim .bcash-card img.logo-header,
+#key-claim .bcash-atm img.logo-header,
+#key-claim .bcash-merchant img.logo-header,
+#key-claim .bcash-coin img.logo-header {
+    height: 28px;
+}
+
+#key-claim .bcash-eplatform hr,
+#key-claim .bcore hr,
+#key-claim .bcash-pay hr,
+#key-claim .bcash-card hr,
+#key-claim .bcash-atm hr,
+#key-claim .bcash-merchant hr,
+#key-claim .bcash-coin hr {
+    border-top: none;
+}
+
+#key-claim .bcash-eplatform .eplatform,
+#key-claim .bcash-card .card-img,
+#key-claim .bcash-pay .mobile,
+#key-claim .bcash-atm .atm,
+#key-claim .bcore .core,
+#key-claim .bcash-merchant .merchant,
+#key-claim .bcash-coin .coin {
+    text-align: center;
+}
+#key-claim .bcash-eplatform .eplatform img{
+    width:300px;
+}
+#key-claim .bcash-pay .mobile img {
+    width: 400px;
+    height: 400px;
+}
+#key-claim .bcore,
+#key-claim .bcash-card {
+    margin-top: 40px;
+}
+#key-claim .bcore iframe {
+    height: 315px;
+    width: 500px;
+}
+
+#key-claim .bcore .core-content,
+#key-claim .bcash-card .card-content,
+#key-claim .bcash-merchant .merchant-content {
+    margin-top: 20px;
+}
+#key-claim .bcash-pay img {
+    margin-top: 40px;
+}
+#key-claim .bcash-card .card-img img {
+    margin-left: 0;
+    width: 350px;
+    height: 300px;
+}
+#key-claim .bcash-atm .atm img {
+    margin-left: 0;
+}
+#key-claim .bcash-merchant {
+    margin-top: 80px;
+}
+/*BCASH's-key-claim-end*/
+/*whitepaper*/
+#whitepaper ul{
+    text-align:center;
+}
+#whitepaper li{
+    padding: 0 20px;
+}
+/*whitepaper end*/
+    /*faq*/
+    .faq .tab-content .card .card-header .btn-link {
+        font-size: 15px;
+        width: 0px;
+        padding: 0;
+        margin-right: 2rem;
+    }
+
+    .faq-item {
+        margin-right: 25px;
+        width: 128px;
+    }
+
+    .faq-title {
+        width: 580px;
+        margin-top:-20px
+    }
+    /*faq-end*/
+}
+@media (max-width: 737px) {
+    #head-area .head-content {
+        height: 200vh;
+    }
+    .phase-time ul.token-sale-info {
+        padding-left: 5px;
+    }
+    .phase-time ul.token-sale-info li:before {
+        margin-left: 0px;
+    }
+    /*faq*/
+    .faq .tab-content .card .card-header .btn-link {
+        font-size: 15px;
+        width: 0px;
+        padding: 0;
+        margin-right: 2rem;
+    }
+
+    .faq-item {
+        margin-right: 25px;
+        width: 128px;
+    }
+
+    .faq-title {
+        width: 420px;
+        margin-top: -30px;
+    }
+    /*faq-end*/
+} 
+@media (max-width: 641px){
+    /*faq*/
+    .faq .tab-content .card .card-header .btn-link {
+        font-size: 15px;
+        width: 0px;
+        padding: 0;
+        margin-right: 2rem;
+    }
+
+    .faq-item {
+        margin-right: 25px;
+        width: 128px;
+    }
+
+    .faq-title {
+        width: 420px;
+        margin-top: -30px;
+    }
+    /*faq-end*/
+}
+@media (max-width: 426px) {
+    #head-area .head-content {
+        height: 140vh;
+    }
+
+        #head-area .head-content .mainnet-text {
+            width: 150px;
+            height: 50px;
+        }
+
+    #head-area .banner-wrapper ul.token-sale-info {
+        margin-bottom: 0;
+    }
+    /*BCASH's-key-claim*/
+    #key-claim {
+        margin-top: 0;
+    }
+
+        #key-claim .bcash-eplatform img.logo-header,
+        #key-claim .bcore img.logo-header,
+        #key-claim .bcash-pay img.logo-header,
+        #key-claim .bcash-card img.logo-header,
+        #key-claim .bcash-atm img.logo-header,
+        #key-claim .bcash-merchant img.logo-header,
+        #key-claim .bcash-coin img.logo-header {
+            height: 28px;
+        }
+
+        #key-claim .bcash-eplatform hr,
+        #key-claim .bcore hr,
+        #key-claim .bcash-pay hr,
+        #key-claim .bcash-card hr,
+        #key-claim .bcash-atm hr,
+        #key-claim .bcash-merchant hr,
+        #key-claim .bcash-coin hr {
+            border-top: none;
+        }
+
+        #key-claim .bcash-eplatform .eplatform,
+        #key-claim .bcash-card .card-img,
+        #key-claim .bcash-atm .atm,
+        #key-claim .bcash-merchant .merchant,
+        #key-claim .bcash-coin .coin {
+            text-align: center;
+        }
+
+        #key-claim .bcore,
+        #key-claim .bcash-card {
+            margin-top: 40px;
+        }
+
+            #key-claim .bcore iframe {
+                height: 200px;
+                width: 315px;
+            }
+
+            #key-claim .bcore .core-content,
+            #key-claim .bcash-card .card-content,
+            #key-claim .bcash-merchant .merchant-content {
+                margin-top: 20px;
+            }
+
+        #key-claim .bcash-pay img {
+            margin-top: 40px;
+        }
+
+        #key-claim .bcash-card .card-img img {
+            margin-left: 0;
+            width: 250px;
+            height: 200px;
+        }
+
+        #key-claim .bcash-atm .atm img {
+            margin-left: 0;
+        }
+
+        #key-claim .bcash-merchant {
+            margin-top: 80px;
+        }
+    /*BCASH's-key-claim-end*/
+    /*whitepaper*/
+    #whitepaper {
+        padding-bottom: 0 !important;
+    }
+
+        #whitepaper ul.social {
+            text-align: center;
+        }
+
+        #whitepaper ul li {
+            display: inline-grid;
+            padding: 5px 20px;
+        }
+
+        #whitepaper ul:last-child li {
+            width: 23%;
+            font-size: 35px;
+        }
+    /*whitepaper-end*/
+    /*token-sale-mobile-app*/
+    #token-sale-mobile-app {
+        padding-top: 10px !important;
+    }
+        /*token-sale*/
+        #token-sale-mobile-app .token-sale .clock ul li .retangleBlack {
+            width: 75px;
+            height: 90px;
+        }
+
+            #token-sale-mobile-app .token-sale .clock ul li .retangleBlack p {
+                font-size: 14px;
+            }
+
+            #token-sale-mobile-app .token-sale .clock ul li .retangleBlack h1 {
+                font-size: 30px;
+            }
+
+        #token-sale-mobile-app .token-sale .phase-time ul.token-sale-info,
+        #token-sale-mobile-app .token-sale .categories-token ul.token-sale-info {
+            padding-left: 30px;
+        }
+
+            #token-sale-mobile-app .token-sale .phase-time ul.token-sale-info li:before,
+            #token-sale-mobile-app .token-sale .categories-token ul.token-sale-info li:before {
+                margin-left: 20px;
+            }
+
+        #token-sale-mobile-app .token-details .progress-top li:nth-child(3) {
+            position: relative;
+            left: 20px;
+        }
+        /*token-sale-end*/
+        /*mobile-app*/
+        #token-sale-mobile-app .mobile-app {
+            padding-top: 0;
+            margin-top: 0 !important;
+        }
+
+        #token-sale-mobile-app .mobile-app-content {
+            text-align: left;
+        }
+
+            #token-sale-mobile-app .mobile-app-content a {
+                width: 160px;
+                margin: 5px 10px;
+                font-size: 20px;
+            }
+    /*mobile-app-end*/
+    /*token-sale-mobile-app-end*/
+    /*roadmap*/
+    #roadmap {
+        padding: 0 !important;
+    }
+    /*roadmap-end*/
+    /*token-distribution*/
+    #token-distribution, #advisor {
+        padding-top: 0 !important;
+    }
+    /*token-distribution-end*/
+    /*faq*/
+    .faq .card h5 {
+        width: 340px;
+        margin-left: -30px;
+        padding-top: 15px;
+        text-align: left;
+    }
+
+    .faq .faq-item {
+        padding-left: 0;
+    }
+
+    .faq .collapse-icon a[data-toggle='collapse']:after,
+    .faq .collapse-icon a[data-toggle='collapse']:before {
+        top: 25%;
+    }
+    /*faq-end*/
+
+}
+@media (max-width: 415px) {
+    #head-area .head-content {
+        height: 100vh;
+    }
+
+    #head-area .head-content .mainnet-text {
+        width: 150px;
+        height: 50px;
+    }
+
+    #head-area .banner-wrapper ul.token-sale-info {
+        margin-bottom: 0;
+    }
+    /*BCASH's-key-claim*/
+    #key-claim {
+        margin-top: 0;
+    }
+
+    #key-claim .bcash-eplatform img.logo-header,
+    #key-claim .bcore img.logo-header,
+    #key-claim .bcash-pay img.logo-header,
+    #key-claim .bcash-card img.logo-header,
+    #key-claim .bcash-atm img.logo-header,
+    #key-claim .bcash-merchant img.logo-header,
+    #key-claim .bcash-coin img.logo-header {
+        height: 28px;
+    }
+
+    #key-claim .bcash-eplatform hr,
+    #key-claim .bcore hr,
+    #key-claim .bcash-pay hr,
+    #key-claim .bcash-card hr,
+    #key-claim .bcash-atm hr,
+    #key-claim .bcash-merchant hr,
+    #key-claim .bcash-coin hr {
+        border-top: none;
+    }
+
+    #key-claim .bcash-eplatform .eplatform,
+    #key-claim .bcash-card .card-img,
+    #key-claim .bcash-atm .atm,
+    #key-claim .bcash-merchant .merchant,
+    #key-claim .bcash-coin .coin {
+        text-align: center;
+    }
+    #key-claim .bcash-pay .mobile img {
+        width: 350px;
+        height: 300px;
+    }
+    #key-claim .bcore,
+    #key-claim .bcash-card {
+        margin-top: 40px;
+    }
+
+    #key-claim .bcore iframe {
+        height: 200px;
+        width: 315px;
+    }
+
+    #key-claim .bcore .core-content,
+    #key-claim .bcash-card .card-content,
+    #key-claim .bcash-merchant .merchant-content {
+        margin-top: 20px;
+    }
+
+    #key-claim .bcash-pay img {
+        margin-top: 40px;
+    }
+
+    #key-claim .bcash-card .card-img img {
+        margin-left: 0;
+        width: 250px;
+        height: 200px;
+    }
+
+    #key-claim .bcash-atm .atm img {
+        margin-left: 0;
+    }
+
+    #key-claim .bcash-merchant {
+        margin-top: 80px;
+    }
+    /*BCASH's-key-claim-end*/
+    /*whitepaper*/
+    #whitepaper {
+        padding-bottom: 0 !important;
+    }
+
+    #whitepaper ul.social {
+        text-align: center;
+    }
+
+    #whitepaper ul li {
+        display: inline-grid;
+        padding: 5px 20px;
+    }
+
+    #whitepaper ul:last-child li {
+        width: 23%;
+        font-size: 35px;
+    }
+    /*whitepaper-end*/
+    /*token-sale-mobile-app*/
+    #token-sale-mobile-app {
+        padding-top: 10px !important;
+    }
+    /*token-sale*/
+    #token-sale-mobile-app .token-details {
+        height: 350px;
+    }
+
+    #token-sale-mobile-app .token-sale .clock ul li .retangleBlack {
+        width: 70px;
+        height: 90px;
+    }
+
+    #token-sale-mobile-app .token-sale .clock ul li .retangleBlack p {
+        font-size: 16px;
+    }
+
+    #token-sale-mobile-app .token-sale .clock ul li .retangleBlack h1 {
+        font-size: 30px;
+    }
+
+    #token-sale-mobile-app .token-sale .phase-time ul.token-sale-info,
+    #token-sale-mobile-app .token-sale .categories-token ul.token-sale-info {
+        padding-left: 30px;
+    }
+
+    #token-sale-mobile-app .token-sale .phase-time ul.token-sale-info li:before,
+    #token-sale-mobile-app .token-sale .categories-token ul.token-sale-info li:before {
+        margin-left: 20px;
+    }
+
+    #token-sale-mobile-app .token-details .progress-top li:nth-child(3),
+    #token-sale-mobile-app .token-details .progress-top li:nth-child(5),
+    #token-sale-mobile-app .token-details .progress-top li:nth-child(8) {
+        font-size: 9px;
+        width: 70px;
+    }
+
+    #token-sale-mobile-app .token-sale:before {
+        width: 330px;
+    }
+    #token-sale-mobile-app .token-details .progress-top li:nth-child(3) {
+        position: relative;
+        left: 20px;
+    }
+    /*token-sale-end*/
+    /*mobile-app*/
+    #token-sale-mobile-app .mobile-app {
+        padding-top: 0;
+        margin-top: 0 !important;
+    }
+
+    #token-sale-mobile-app .mobile-app-content {
+        text-align: left;
+    }
+
+    #token-sale-mobile-app .mobile-app-content a {
+        width: 160px;
+        margin: 5px 10px;
+        font-size: 20px;
+    }
+    /*mobile-app-end*/
+    /*token-sale-mobile-app-end*/
+    /*roadmap*/
+    #roadmap {
+        padding: 0 !important;
+    }
+    /*roadmap-end*/
+    /*token-distribution*/
+    #token-distribution, #advisor {
+        padding-top: 0 !important;
+    }
+    /*token-distribution-end*/
+    /*faq*/
+    .faq .tab-content .card .card-header .btn-link {
+        font-size: 15px;
+        width: 0px;
+        padding: 0;
+        margin-right: 2rem;
+    }
+
+    .faq-item {
+        margin-right: 25px;
+        width: 128px;
+    }
+
+    .faq-title {
+        width: 280px;
+        padding-left: 45px;
+    }
+    /*faq-end*/
+
+}
+@media (max-width: 376px) {
+    p{
+    text-align: left;
+}
+/*header*/
+#head-area .head-content {
+    height: 85vh;
+}
+#head-area .head-content .banner-content .col-md-6{
+    margin-top: -15px;
+}
+#head-area .head-content .mainnet-text{
+    width:150px;
+    height:50px;
+}
+#head-area .banner-wrapper ul.token-sale-info{
+    margin-bottom: 1rem;
+}
+#svg-animation svg{
+    margin-top:87px;
+}
+    /*header-end*/
+    /*about*/
+#about {
+    padding-top: 0 !important;
+}
+#about .heading{
+    margin-top:30px
+}
+/*about-end*/
+/*BCASH's-key-claim*/
+#key-claim{
+    margin-top: -30px;
+}
+#key-claim p{
+    text-align:left;
+}
+#key-claim .bcash-eplatform img.logo-header,
+#key-claim .bcore img.logo-header,
+#key-claim .bcash-pay img.logo-header,
+#key-claim .bcash-card img.logo-header,
+#key-claim .bcash-atm img.logo-header,
+#key-claim .bcash-merchant img.logo-header,
+#key-claim .bcash-coin img.logo-header{
+    height: 25px;
+}
+#key-claim .bcash-eplatform hr,
+#key-claim .bcore hr,
+#key-claim .bcash-pay hr,
+#key-claim .bcash-card hr,
+#key-claim .bcash-atm hr,
+#key-claim .bcash-merchant hr,
+#key-claim .bcash-coin hr{
+    border-top: none;
+}
+#key-claim .bcash-eplatform .eplatform,
+#key-claim .bcash-card .card-img,
+#key-claim .bcash-atm .atm,
+#key-claim .bcash-merchant .merchant,
+#key-claim .bcash-coin .coin{
+    text-align: center;
+}
+#key-claim .bcore,
+#key-claim .bcash-card{
+    margin-top: 40px;
+}
+#key-claim .bcore iframe{
+    height: 200px;
+    width: 315px;
+}
+    #key-claim .bcash-pay .mobile img{
+        width:315px;
+        height: 214px;
+    }
+    #key-claim .bcore .core-content,
+    #key-claim .bcash-card .card-content,
+    #key-claim .bcash-merchant .merchant-content {
+        margin-top: 20px;
+    }
+#key-claim .bcash-pay img{
+    margin-top: 40px;
+}
+#key-claim .bcash-card .card-img img{
+    margin-left: 0;
+    width: 250px;
+    height: 200px;
+}
+#key-claim .bcash-atm .atm img{
+    margin-left:0;
+}
+#key-claim .bcash-merchant{
+    margin-top: 80px;
+}
+/*BCASH's-key-claim-end*/
+/*whitepaper*/
+#whitepaper{
+    padding-bottom: 0 !important;
+}
+#whitepaper ul.social{
+    text-align: center;
+}
+#whitepaper ul li{
+    display: inline-grid;
+    padding: 5px 20px;
+}
+#whitepaper ul:last-child li{
+    width: 23%;
+    font-size: 35px;
+}
+/*whitepaper-end*/
+/*token-sale-mobile-app*/
+#token-sale-mobile-app{
+    padding-top: 10px !important;
+}
+/*token-sale*/
+#token-sale-mobile-app .token-sale .clock ul li .retangleBlack {
+    width: 65px;
+    height: 90px;
+}
+#token-sale-mobile-app .token-sale .clock ul li .retangleBlack p{
+    font-size: 14px;
+        
+}
+#token-sale-mobile-app .token-sale .clock ul li .retangleBlack h1 {
+    font-size: 30px;
+}
+#token-sale-mobile-app .token-sale .phase-time ul.token-sale-info,
+#token-sale-mobile-app .token-sale .categories-token ul.token-sale-info {
+    padding-left: 30px;
+}
+#token-sale-mobile-app .token-sale:before{
+    width:350px;
+}
+#token-sale-mobile-app .token-sale .phase-time ul.token-sale-info li:before,
+#token-sale-mobile-app .token-sale .categories-token ul.token-sale-info li:before {
+    margin-left: 20px;
+}
+#token-sale-mobile-app .token-details .progress-top li:nth-child(3){
+    position:relative;
+    left:20px;
+}
+/*token-sale-end*/
+/*mobile-app*/
+#token-sale-mobile-app .mobile-app{
+    padding-top:0;
+    margin-top: 0 !important;
+}
+#token-sale-mobile-app .mobile-app-content {
+    text-align: left;
+}
+#token-sale-mobile-app .mobile-app-content a {
+    width: 135px;
+    margin: 5px 10px; 
+    font-size: 15px;
+}
+/*mobile-app-end*/
+/*token-sale-mobile-app-end*/
+/*token-distribution*/
+#token-distribution, #advisor{
+    padding-top: 0 !important;
+}
+/*token-distribution-end*/
+    /*faq*/
+    .faq .tab-content .card .card-header .btn-link {
+        font-size: 15px;
+        width: 0px;
+        padding: 0;
+        margin-right: 2rem;
+    }
+
+    .faq-item {
+        margin-right: 25px;
+        width: 128px;
+    }
+
+    .faq-title {
+        width: 250px;
+        padding-left: 40px;
+    }
+    /*faq-end*/
+}
+@media (max-width: 361px){
+/*header*/
+    #svg-animation .svg{
+        margin-top:30px;
+    }
+    #about .heading{
+        margin-top:30px;
+    }
+/*header-end*/
+
+    #token-sale-mobile-app .token-sale .clock ul li .retangleBlack {
+        width: 60px;
+        height: 80px;
+    }
+/*progress*/
+    .loading-bar .progress {
+        position: relative;
+        bottom: -5px;
+    }
+    a.btn.btn-lg.btn-glow.btn-gradient-blue {
+        margin-top:0px;
+    }
+
+    #token-sale-mobile-app .token-sale:before {
+        width: 330px;
+    }
+/*progress-end*/
+/*faq*/
+    .faq .tab-content .card .card-header .btn-link {
+        font-size: 15px;
+        width: 0px;
+        padding: 0;
+        margin-right: 2rem;
+    }
+    .faq-item {
+        margin-right: 25px;
+        width: 128px;
+    }
+    .faq-title{
+        width:250px;
+        padding-left:45px;
+    }
+/*faq-end*/
+}
+@media (max-width: 321px){
+    p {text-align: left;font-size: 12px;}
+    ul{font-size:12px;}
+    .heading .title{font-size:17px !important;}
+    h5{font-size:15px;}
+    /*header*/
+    #head-area .head-content h1 {
+        font-size: 15px;
+        margin-bottom: 10px !important;
+    }
+    #head-area .head-content .btn{
+        font-size:11px;
+        margin-right:5px !important;
+    }
+
+    #head-area .head-content {
+        height: 95vh;
+        margin-top: 50px;
+    }
+
+    #head-area .head-content .banner-content .col-md-6 {
+        margin-top: -15px;
+    }
+
+    #head-area .head-content .mainnet-text {
+        width: 150px;
+        height: 50px;
+    }
+
+    #head-area .banner-wrapper ul.token-sale-info {
+        margin-bottom: 1rem;
+    }
+    /*header-end*/
+    /*BCASH's-key-claim*/
+    #key-claim .bcash-eplatform img.logo-header,
+    #key-claim .bcore img.logo-header,
+    #key-claim .bcash-pay img.logo-header,
+    #key-claim .bcash-card img.logo-header,
+    #key-claim .bcash-atm img.logo-header,
+    #key-claim .bcash-coin img.logo-header {
+        height: 20px;
+    }
+
+    #key-claim .bcash-eplatform hr,
+    #key-claim .bcore hr,
+    #key-claim .bcash-pay hr,
+    #key-claim .bcash-card hr,
+    #key-claim .bcash-atm hr,
+    #key-claim .bcash-merchant hr,
+    #key-claim .bcash-coin hr {
+        border-top: none;
+    }
+
+    #key-claim .bcash-eplatform .eplatform,
+    #key-claim .bcash-card .card-img,
+    #key-claim .bcash-atm .atm,
+    #key-claim .bcash-merchant .merchant,
+    #key-claim .bcash-coin .coin {
+        text-align: center;
+    }
+
+    #key-claim .bcash-eplatform .eplatform img{
+        width:200px;
+    }
+    #key-claim .bcore,
+    #key-claim .bcash-card {
+        margin-top: 40px;
+    }
+
+    #key-claim .bcore iframe {
+        height: 200px;
+        width: 250px;
+    }
+    #key-claim .bcash-merchant .merchant .problems-img,
+    #key-claim .bcash-coin .coin .problems-img {
+        width: 250px;
+    }
+    #key-claim .bcash-pay .mobile img {
+        width: 250px;
+        height: 200px;
+        margin-top: 20px;
+    }
+
+    #key-claim .bcore .core-content,
+    #key-claim .bcash-card .card-content,
+    #key-claim .bcash-merchant .merchant-content {
+        margin-top: 20px;
+    }
+
+    #key-claim .bcash-pay img {
+        margin-top: 40px;
+    }
+
+    #key-claim .bcash-card .card-img img {
+        margin-left: 0;
+        width: 240px;
+        height: 200px;
+    }
+
+    #key-claim .bcash-atm .atm img {
+        margin-left: 0;
+    }
+
+    #key-claim .bcash-merchant {
+        margin-top: 80px;
+    }
+    #key-claim .bcash-merchant img.logo-header {
+        height: 20px;
+        width: 200px;
+    }
+    #key-claim .bcash-merchant .merchant img {
+        width: 200px;
+    }
+    /*BCASH's-key-claim-end*/
+    /*token-sale-mobile-app*/
+    .btn-lg{padding:1rem 2rem;}
+    .token-sale ul.token-sale-info{font-size:12px;}
+    .token-sale ul.token-sale-info li{padding:0.5rem 0}
+    #token-sale-mobile-app {
+        padding-top: 10px !important;
+    }
+    /*token-sale*/
+    #token-sale-mobile-app .token-details{
+        height:350px;
+    }
+    #token-sale-mobile-app .token-sale:before {
+        width: 230px;
+    }
+    #token-sale-mobile-app .token-sale .clock ul li .retangleBlack {
+        width: 50px;
+        height: 75px;
+    }
+
+    #token-sale-mobile-app .token-sale .clock ul li .retangleBlack p {
+        font-size: 11px;
+    }
+
+    #token-sale-mobile-app .token-sale .clock ul li .retangleBlack h1 {
+        font-size: 24px;
+    }
+
+    #token-sale-mobile-app .token-sale .phase-time ul.token-sale-info,
+    #token-sale-mobile-app .token-sale .categories-token ul.token-sale-info {
+        padding-left: 30px;
+    }
+
+    #token-sale-mobile-app .token-sale .phase-time ul.token-sale-info li:before,
+    #token-sale-mobile-app .token-sale .categories-token ul.token-sale-info li:before {
+        margin-left: 20px;
+    }
+    #token-sale-mobile-app .token-details .progress-top li:nth-child(3),
+    #token-sale-mobile-app .token-details .progress-top li:nth-child(5),
+    #token-sale-mobile-app .token-details .progress-top li:nth-child(8) {
+        font-size: 9px;
+        width: 70px;
+    }
+    #token-sale-mobile-app .token-details .progress-top li:nth-child(3) {
+        position: relative;
+        left: 20px;
+    }
+    /*token-sale-end*/
+    /*mobile-app*/
+    #token-sale-mobile-app .mobile-app {
+        padding-top: 0;
+        margin-top: 0 !important;
+    }
+
+    #token-sale-mobile-app .mobile-app-content {
+        text-align: left;
+    }
+
+    #token-sale-mobile-app .mobile-app-content a {
+        width: 105px;
+        margin: 5px 10px;
+        font-size: 10px;
+    }
+    /*mobile-app-end*/
+    /*token-sale-mobile-app-end*/
+    /*roadmap*/
+    .f14{font-size:10px;}
+    /*roadmap-end*/
+    #team,#advisor,#news{
+        padding: 0 !important;
+    }
+    #team .profile .name,
+    #advisor .profile .name{
+        font-size:14px;
+    }
+    #team .profile .role,
+    #advisor .profile .role {
+        font-size: 12px;
+    }
+    /*faq*/
+    .faq .tab-content .card .card-header .btn-link {
+        font-size: 15px;
+        width: 0px;
+        padding: 0;
+        margin-right: 2rem;
+    }
+
+    .faq-item {
+        margin-right: 25px;
+        width: 128px;
+    }
+
+    .faq-title {
+        width: 180px;
+        padding-left: 40px;
+    }
+    /*faq-end*/
+}
+/*-----RESPONSIVE-END-----*/
