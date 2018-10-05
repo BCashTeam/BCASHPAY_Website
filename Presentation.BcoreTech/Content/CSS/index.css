@@ -1,0 +1,587 @@
+body{
+    font-family: 'Nunito', 'Quicksand', sans-serif;  
+}
+/*header*/
+nav.navbar {
+    background-color: #022151 !important;  
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+    font-weight: bold;
+}
+
+    .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #d6b161 !important;
+    }
+/*header end*/
+/*jumbotron*/
+.jumbotron {
+    background: url('../images/bcore_tech.png') center center no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+/*jumbotron end*/
+/*about*/
+/*explorer*/
+.explorer h3{
+    font-weight: 800;
+}
+.explorer .content p, .innovate .content p{
+    padding: 20px 150px;  
+}
+/*explorer end*/
+/*innovate*/
+.innovate{
+    padding-top: 30px;
+    background-color: #0F44A1;
+    color: #fff;
+}.innovate h3{
+    padding: 30px 300px 0 300px;
+    font-weight: 800;
+}
+ .innovate .content{
+     height: 120px;
+ }
+/*innovate end*/
+/*about end*/
+/*team*/
+#team{
+    padding: 30px 0;
+    background-color: #f1f1f1;
+    
+}
+#team h3{
+    padding: 30px 300px 10px 300px;
+    font-weight: 800;
+} 
+#team .hr{
+    margin-bottom: 40px;
+}
+.card-img-top{
+    width: 200px;
+    margin: auto;
+    padding-top:30px;   
+}
+.card-body h4{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.card-body p{
+    height: 70px;
+    font-size: 15px;
+}
+/*team end*/   
+/*contact*/
+#contact{
+    padding: 30px;
+    background-color: #fff;   
+   
+}
+#contact h3{
+    padding: 30px 300px 10px 300px;
+    font-weight: 800;
+    color: #022151
+} 
+#contact .hr{
+    margin-bottom: 40px;
+}
+#contact .btn-send{
+    background-color: #022151;
+    color: white;
+    margin-top: 20px;
+}
+#contact .btn-send:hover{
+    background-color: #d6b161;
+}
+#contact ul li, #contact #form-message{
+     color: #022151;
+}
+#contact ul li i{
+    border: 1px solid #676767;
+    padding: 15px 30px 30px 15px;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 20px;
+   
+}
+/*contact end*/
+/*copyright*/
+#copyright{
+    background-color: #022151;
+    color: #fff;
+    padding: 20px 0;
+}
+#copyright i{
+    font-size: 30px;
+    padding: 5px;
+    color: #fff;
+}
+#copyright ul li i:hover{
+    transition: 0.5s;
+}
+#copyright ul li:nth-child(1) i:hover{
+    color: #3B5998;
+    transform: scale(2);
+}
+#copyright ul li:nth-child(2) i:hover{
+    color:  #55ACEE;
+    transform: scale(2);
+}
+#copyright ul li:nth-child(3) i:hover{
+    color: #FF4500;
+    transform: scale(2);
+}
+#copyright ul li:nth-child(4) i:hover{
+    color: #E56969;
+    transform: scale(2);
+}
+#copyright ul li:nth-child(5) i:hover{
+    color: #45BBFF;
+    transform: scale(2);
+}
+#copyright ul li:nth-child(6) i:hover{
+    color: #00B489;
+    transform: scale(2);
+}
+#copyright ul li:nth-child(7) i:hover{
+    color: #430297;
+    transform: scale(2);
+}
+/*copyright end*/
+.explorer .hr, .innovate .hr,
+#team .hr, #contact .hr{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #d6b161 
+}
+@media src (min-width: 1400px){
+    .jumbotron{
+        height: 610px;
+    }
+}
+@media (max-width: 1367px){
+    .jumbotron{
+        height: 600px;
+    }
+}
+@media (max-width: 1025px){
+    .jumbotron{
+        height: 550px;
+    }
+    .innovate h3, #team h3 {
+        padding: 30px 170px 0 170px;
+    }
+}
+@media (max-width: 824px){
+    /*jumbotron*/
+    .jumbotron {
+        height: 350px;
+        width: 100%;
+    }
+    /*jumbotron end*/
+    /*about*/
+    /*explorer*/
+    .explorer .content p {
+        padding: 20px;
+    }
+    /*explorer end*/
+    /*innovate*/
+    .innovate h3 {
+        padding: 30px 0 5px;
+    }
+
+    .innovate .content {
+        height: 170px;
+    }
+
+        .innovate .content p {
+            padding: 20px;
+        }
+    /*innovate end*/
+    /*about end*/
+    /*team*/
+    #team h3 {
+        padding: 30px 0px 10px 0px;
+    }
+
+    #team .card {
+        margin-top: 20px;
+    }
+    /*team end*/
+    /*contact*/
+    #contact h3 {
+        padding: 30px 0px 10px 0px;
+    }
+
+    #contact ul li span {
+        margin-left: 50px;
+    }
+    /*contact end*/
+}
+@media screen and (min-width: 731px) and (max-width: 769px) {
+    /*jumbotron*/
+    .jumbotron {
+        height: 325px;
+        width: 100%;
+    }
+    /*jumbotron end*/
+    /*about*/
+    /*explorer*/
+    .explorer .content p {
+        padding: 20px;
+    }
+    /*explorer end*/
+    /*innovate*/
+    .innovate h3 {
+        padding: 30px 0 5px;
+    }
+
+    .innovate .content {
+        height: 170px;
+    }
+
+        .innovate .content p {
+            padding: 20px;
+        }
+    /*innovate end*/
+    /*about end*/
+    /*team*/
+    #team h3 {
+        padding: 30px 0px 10px 0px;
+    }
+
+    #team .card {
+        margin-top: 20px;
+    }
+    /*team end*/
+    /*contact*/
+    #contact h3 {
+        padding: 30px 0px 10px 0px;
+    }
+    #contact ul li span {
+        margin-left: 50px;
+    }
+    /*contact end*/
+}
+@media(max-width: 668px) {
+    /*jumbotron*/
+    .jumbotron {
+        height: 300px;
+        width: 100%;
+    }
+    /*jumbotron end*/
+    /*about*/
+    /*explorer*/
+    .explorer .content p {
+        padding: 20px;
+    }
+    /*explorer end*/
+    /*innovate*/
+    .innovate h3 {
+        padding: 30px 0 5px;
+    }
+
+    .innovate .content {
+        height: 170px;
+    }
+
+        .innovate .content p {
+            padding: 20px;
+        }
+    /*innovate end*/
+    /*about end*/
+    /*team*/
+    #team h3 {
+        padding: 30px 0px 10px 0px;
+    }
+
+    #team .card {
+        margin-top: 20px;
+    }
+    /*team end*/
+    /*contact*/
+    #contact h3 {
+        padding: 30px 0px 10px 0px;
+    }
+    /*contact end*/
+}
+@media(max-width: 569px){
+    /*jumbotron*/
+    .jumbotron {
+        height: 260px;
+        width: 100%;
+    }
+    /*jumbotron end*/
+    /*about*/
+    /*explorer*/
+    .explorer .content p {
+        padding: 20px;
+    }
+    /*explorer end*/
+    /*innovate*/
+    .innovate h3 {
+        padding: 30px 0 5px;
+    }
+
+    .innovate .content {
+        height: 150px;
+    }
+
+        .innovate .content p {
+            padding: 20px;
+        }
+    /*innovate end*/
+    /*about end*/
+    /*team*/
+    #team h3 {
+        padding: 30px 0px 10px 0px;
+    }
+
+    #team .card {
+        margin-top: 20px;
+    }
+    /*team end*/
+    /*contact*/
+    #contact h3 {
+        padding: 30px 0px 10px 0px;
+    }
+    /*contact end*/
+}
+@media(max-width: 415px){
+    /*jumbotron*/
+    .jumbotron {
+        height: 230px;
+        width: 100%;
+    }
+    /*jumbotron end*/
+    /*about*/
+    /*explorer*/
+    .explorer .content p {
+        padding: 20px;
+    }
+    /*explorer end*/
+    /*innovate*/
+    .innovate h3 {
+        padding: 30px 0 5px; 0;
+    }
+    .innovate .content {
+        height: 220px;
+    }
+        .innovate .content p {
+            padding: 20px;
+        }
+    /*innovate end*/
+    /*about end*/
+    /*team*/
+    #team h3 {
+        padding: 30px 0px 10px 0px;
+    }
+    #team .card {
+        margin-top: 20px;
+    }
+    /*team end*/
+    /*contact*/
+    #contact h3 {
+        padding: 30px 0px 10px 0px;
+    }
+    #contact ul li span {
+        margin-left: 50px;
+    }
+    /*contact end*/
+}
+@media(max-width:376px){
+    /*about*/
+    /*jumbotron*/
+    .jumbotron{
+    background: url('../images/iphx.png') center center no-repeat;
+    height:440px;
+    width: 100%;
+    }
+    .jumbotron {
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    #about {
+        margin-top: -40px;
+    }
+    /*explorer, innovate*/
+    .explorer, .innovate{
+        padding: 30px 0 0 0;
+    }
+    .explorer h3, .innovate h3{
+        padding: 20px 0;
+        font-weight: 800;
+    }
+
+        .innovate .content {
+            height: 220px;
+        }
+    .explorer .content p, .innovate .content p{
+        padding: 20px  0;  
+    }
+    /*explorer, innovate end*/   
+    /*about end*/
+    /*team*/
+    #team{
+        background-color: #f1f1f1;
+        
+    }
+    #team h3{
+        padding: 20px 0 0 0;
+        font-weight: 800;
+    } 
+    #team .hr{
+        margin-bottom: 40px;
+    }
+    .card{
+        margin-top: 30px;
+    }
+    .card-img-top{
+        width: 200px;
+        margin: auto;
+        padding-top:30px;   
+    }
+    .card-body h4{
+        font-weight: 700;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .card-body p{
+        height: 70px;
+        font-size: 15px;
+    }
+    /*team end*/   
+    /*contact*/
+    #contact h3{
+        padding:20px 0 0 0;
+    }
+    #contact ul li i{
+        padding: 7px 20px 20px 10px;
+        font-size: 15px;
+        width: 15px;
+        height: 15px;
+        margin-bottom: 20px;
+    }
+    #contact ul li{
+        font-size:12px;
+    }
+    /*copyright*/
+    #copyright .nav-link{
+        padding: 0 7px;
+    }
+    #copyright i{
+        font-size: 20px;
+        color: #fff;
+    }
+    /*copyright end*/
+    .explorer .hr, .innovate .hr,
+    #team .hr, #contact .hr{
+        width: 30%;
+    }
+
+}
+@media(max-width:361px){
+    
+    #contact ul li span {
+        margin-left: 35px;
+    }
+
+    #team .hr {
+        margin-bottom: 5px;
+    }
+}
+@media(max-width:321px) {
+    /*about*/
+    /*jumbotron*/
+    .jumbotron {
+        background: url('../images/iphx.png') center center no-repeat;
+        height: 440px;
+        width: 100%;
+       
+    }
+    /*about*/
+    
+    /*explorer, innovate*/
+    .explorer, .innovate {
+        padding: 30px 0 0 0;
+    }
+
+        .explorer h3, .innovate h3 {
+            padding: 20px 0;
+            font-weight: 800;
+        }
+
+        .explorer .content p, .innovate .content p {
+            padding: 20px 0;
+        }
+    /*explorer, innovate end*/
+    /*about end*/
+    /*team*/
+    #team {
+        background-color: #f1f1f1;
+    }
+
+        #team h3 {
+            padding: 20px 0 0 0;
+            font-weight: 800;
+        }
+
+        
+
+    .card {
+        margin-top: 30px;
+    }
+
+    .card-img-top {
+        width: 200px;
+        margin: auto;
+        padding-top: 30px;
+    }
+
+    .card-body h4 {
+        font-weight: 700;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .card-body p {
+        height: 100px;
+        font-size: 15px;
+    }
+    /*team end*/
+    /*contact*/
+    #contact h3 {
+        padding: 20px 0 0 0;
+    }
+
+    #contact ul li i {
+        padding: 7px 20px 20px 10px;
+        font-size: 15px;
+        width: 15px;
+        height: 15px;
+        margin-bottom: 20px;
+    }
+
+    #contact ul li {
+        font-size: 12px;
+    }
+    /*copyright*/
+    #copyright .nav-link {
+        padding: 0 7px;
+    }
+
+    #copyright i {
+        font-size: 20px;
+        color: #fff;
+    }
+    /*copyright end*/
+    .explorer .hr, .innovate .hr,
+    #team .hr, #contact .hr {
+        width: 30%;
+    }
+}
